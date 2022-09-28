@@ -1,6 +1,5 @@
 @media (max-width:480px) {
     .container {
-        height: auto;
         width: 375px;
     }
 
@@ -63,8 +62,6 @@
 
     .about__list {
         display: flexbox;
-        margin-top: 20%;
-        margin-bottom: 20%;
 
         font-family: 'Montserrat';
         font-style: normal;
@@ -74,23 +71,12 @@
     }
 
     .list__point {
-        color: #961914;
+       color: #961914;
     }
-
     .list__text {
         color: #434242;
         ;
     }
-
-    .about__diet {
-        display: flex;
-        width: 487px;
-        height: 327px;
-
-        background: #EAD1D0;
-        transform: rotate(90deg);
-    }
-
     /* Лиза — конец кода CSS*/
 
     .rations {}
