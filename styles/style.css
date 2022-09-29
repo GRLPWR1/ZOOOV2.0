@@ -1,8 +1,19 @@
-<<<<<<< HEAD
 .container {
     
 }
 
+
+@media screen and (min-width:601px) and (max-width:1024px) {
+    .startPage{
+        display: flex;
+        flex-direction: row;
+        width:100vw;
+        height:100vh;
+        background-image: url(./img/DogDesktop.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
 
 @media screen and (min-width:250px) and (max-width:600px) {
 
@@ -272,7 +283,6 @@
         cursor: pointer;
     }
     }
-=======
 @media (max-width:480){
     .container {
     
@@ -308,4 +318,3 @@
         
     }
 }
->>>>>>> cc3482ad7e161fe326b4ba2f63b9265b2582edd1
