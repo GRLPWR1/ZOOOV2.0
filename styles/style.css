@@ -63,8 +63,6 @@
 
     .about__list {
         display: flexbox;
-        margin-top: 20%;
-        margin-bottom: 20%;
 
         font-family: 'Montserrat';
         font-style: normal;
@@ -75,25 +73,81 @@
 
     .list__point {
         color: #961914;
+        padding-bottom: 3%;
     }
 
     .list__text {
         color: #434242;
         ;
     }
-/*здесь ниже проблема - не подтягивается стиль к .about__diet, "состав рациона под svg"*/
+
     .about__diet {
         display: flex;
-        width: 487px;
-        height: 327px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 326px;
+        height: 450px;
 
         background: #EAD1D0;
-        transform: rotate(90deg);
     }
 
-    /* Лиза — конец кода CSS*/
+    .diet__wave {
+        position: absolute;
+    }
 
-    .rations {}
+    .diet__puppy {
+        margin-right: 20%;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 0%;
+    }
+
+    .diet__list {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 250%;
+        white-space: nowrap;
+    }
+
+    .diet__point_meat{
+        list-style-image: url("/assests/img/about_meat.svg");
+        padding-left: 8%;
+    }
+    .diet__point_bones {
+        list-style-image: url(/assests/img/about_bones.svg);
+        padding-left: 8%;
+    }
+    .diet__point_vegs {
+        list-style-image: url(/assests/img/about_vegs.svg);
+        padding-left: 8%;
+    }
+    .diet__point_liver {
+        list-style-image: url(/assests/img/about_liver.svg);
+        padding-left: 8%;
+    }
+    .diet__point_subprod {
+        list-style-image: url(/assests/img/about_subprod.svg);
+        padding-left: 8%;
+    }
+    .diet__point_seeds {
+        list-style-image: url(/assests/img/about_seeds.svg);
+        padding-left: 8%;
+    }
+    .diet__point_fruits {
+        list-style-image: url(/assests/img/about_fruits.svg);
+        padding-left: 8%;
+    }
+
+    .rations {
+
+    }
+
+/* Лиза — конец кода CSS*/
 
     .whyZOOOV {}
 
