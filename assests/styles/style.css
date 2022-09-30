@@ -1,0 +1,222 @@
+@media (max-width: 480px) {
+  .container {
+    height: auto;
+    width: 375px;
+  }
+
+  .header {
+  }
+
+  .main {
+  }
+
+  .startPage {
+  }
+
+  /* Лиза — начало кода CSS*/
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about__headline {
+    display: flexbox;
+    width: 87vw;
+    margin-top: 8vh;
+    margin-bottom: 1vh;
+
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+
+    letter-spacing: 0.02em;
+
+    color: #000000;
+  }
+
+  .about__description {
+    display: flexbox;
+    width: 87vw;
+    margin-bottom: 1vh;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+
+    color: #434242;
+  }
+
+  .about__headlist {
+    display: flexbox;
+    width: 75vw;
+    margin-right: 12%;
+    margin-bottom: 1%;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+  }
+
+  .about__list {
+    display: flexbox;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+  }
+
+  .list__point {
+    color: #961914;
+    padding-bottom: 3%;
+  }
+
+  .list__text {
+    color: #434242;
+  }
+
+  .about__diet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 326px;
+    height: 450px;
+
+    background: #ead1d0;
+  }
+
+  .diet__wave {
+    position: absolute;
+  }
+
+  .diet__puppy {
+    margin-right: 20%;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 0%;
+  }
+
+  .diet__list {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 250%;
+    white-space: nowrap;
+  }
+
+  .diet__point_meat {
+    list-style-image: url("/assests/img/about_meat.svg");
+    padding-left: 8%;
+  }
+  .diet__point_bones {
+    list-style-image: url(/assests/img/about_bones.svg);
+    padding-left: 8%;
+  }
+  .diet__point_vegs {
+    list-style-image: url(/assests/img/about_vegs.svg);
+    padding-left: 8%;
+  }
+  .diet__point_liver {
+    list-style-image: url(/assests/img/about_liver.svg);
+    padding-left: 8%;
+  }
+  .diet__point_subprod {
+    list-style-image: url(/assests/img/about_subprod.svg);
+    padding-left: 8%;
+  }
+  .diet__point_seeds {
+    list-style-image: url(/assests/img/about_seeds.svg);
+    padding-left: 8%;
+  }
+  .diet__point_fruits {
+    list-style-image: url(/assests/img/about_fruits.svg);
+    padding-left: 8%;
+  }
+
+  .rations {
+  }
+
+  /* Лиза — конец кода CSS*/
+
+  .whyZOOOV {
+  }
+
+  .loveAndCare {
+  }
+
+  /*Алена-код CSS*/
+  .aboutDelivery {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    padding: 4em 0em 0em 0em;
+  }
+  div.aboutDelivery__row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  div.aboutDelivery__column {
+    width: 22%;
+  }
+  section.item-about {
+    position: relative;
+    width: 295px;
+    height: 154px;
+    left: 56px;
+    top: 6035px;
+    display: flex;
+    padding: 0.5em;
+    margin: 0 0 0 1em;
+    width: 15vw;
+    margin: 0em 0em 0em 0.8em;
+    justify-content: center;
+    align-items: center;
+  }
+  .item-about__icon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 56px;
+    top: 6035px;
+  }
+  h4.item-about__title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #000000;
+  }
+  .item-about__text {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000000;
+  }
+
+  .FAQ {
+  }
+
+  /*Алена-конец кода CSS*/
+
+  .footer {
+  }
+}
