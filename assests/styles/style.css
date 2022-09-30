@@ -339,7 +339,7 @@
         display: flex;
         color: #FFFFFF;
         flex-direction: row;
-        margin-top: -15vh;
+        margin-top: -21vh;
         margin-left: 7vw;
         padding-right: 55vw;
         padding-top: 12vh;
@@ -360,7 +360,7 @@
         align-items: center;
         margin-right: 70vw;
         margin-left: -135vw;
-        margin-top: -6vh;
+        margin-top: -12vh;
         transform: matrix(1, -0.09, 0.14, 1, 0, 0)
     }
     .startPage__texts_description{
@@ -370,7 +370,7 @@
         justify-content: flex-start;
         align-items:center;
         margin-left: -113vw;
-        margin-top: 27vh;
+        margin-top: 20vh;
         padding-top: 11vh;
         padding-right: 0vw;
         padding-left: 0vw;
@@ -386,7 +386,7 @@
         flex-direction: row;
         align-items: flex-end;
         justify-content: flex-start;
-        margin-top: 79vh;
+        margin-top: 75vh;
         padding-top: 0vh;
         margin-left: -67vw;
         background-color: rgba(150, 25, 20, 1);
@@ -411,7 +411,7 @@
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
-        margin-top: -35vh;
+        margin-top: -32vh;
         margin-right: 0vw;
     }
     }
