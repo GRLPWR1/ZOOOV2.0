@@ -166,46 +166,50 @@
     background-color: #ffffff;
   }
   .aboutDelivery__title {
+    width: 324px;
+    height: 104px;
+    left: 26px;
+    top: 5898px;
+    margin: 1em 0em 0em 0em;
+    padding: 1em 0 0.3em 0.8em;
     font-family: "Oswald";
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 130%;
     letter-spacing: 0.02em;
-    color: #000000;
-    margin: 1em 0em 0em 0em;
-    padding: 1em 0 0.3em 0.8em;
     text-align: start;
-    width: 324px;
-    height: 104px;
-    left: 26px;
-    top: 5898px;
+    color: #000000;
   }
   .aboutDelivery__row {
     max-width: 100%;
   }
   .aboutDelivery__row_arrow {
+    height: 75vh;
     position: absolute;
     margin: 6em 0 0 1em;
-    height: 93.2%;
   }
   .aboutDelivery__column {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    max-width: 100vh;
+    flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
+    max-width: 100vh;
     margin: 0 0 0 3em;
   }
   .item-about {
-    width: 60vw;
-    padding: 0.2em;
     justify-content: flex-start;
     align-items: flex-start;
+    width: 100vw;
+    height: 19vh;
+    padding: 0.01em;
+    margin: 1em;
   }
   .item-about__icon {
-    padding: 1em 0 0 0;
+    position: relative;
+    padding: 0em;
+    margin: 0.2em 0 0 0;
   }
   .item-about__title {
     font-family: "Montserrat";
@@ -217,6 +221,8 @@
     margin: 0.7em 0 0 0;
   }
   .item-about__text {
+    padding: 0.3em;
+    margin: 0.2em;
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
@@ -224,17 +230,88 @@
     line-height: 140%;
     color: #000000;
   }
-
-  .FAQ {
+  .item-about__text_red {
+    color: rgba(150, 25, 20, 1);
+    border-bottom: 1px solid;
   }
-  FAQ__title {
+  .FAQ {
+    display: flex;
+    flex-direction: column;
+  }
+  .FAQ__title {
+    width: 324px;
+    height: 104px;
+    left: 26px;
+    top: 5898px;
+    margin: 1em 0em 0em 0em;
+    padding: 1em 0 0.3em 0.8em;
     font-family: "Oswald";
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 130%;
     letter-spacing: 0.02em;
+    text-align: start;
     color: #000000;
+  }
+  .FAQ__question {
+    display: flex;
+    padding: 1.2em;
+    width: 100vw;
+  }
+
+  .FAQ__question_visible {
+    width: 70vw;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000000;
+  }
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  summary::-moz-list-bullet {
+    list-style-type: none;
+  }
+  summary::marker {
+    display: none;
+  }
+  summary {
+    display: inline-block;
+    padding: 0.3em 0.5em 0.3em 0.4em;
+    font-size: 1.4em;
+    cursor: pointer;
+  }
+  summary:after {
+    content: "+";
+    margin-left: 1.3em;
+    display: inline-block;
+    transition: transform 0.5s;
+    color: rgba(150, 25, 20, 1);
+  }
+  details[open] > summary:after {
+    content: "–";
+  }
+  summary ~ * {
+    padding: 0em 1em 0 1em;
+  }
+  details {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  .FAQ__answer {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #434242;
+  }
+  .FAQ__line {
+    position: relative;
+    border-bottom: 0.2px;
   }
   /*Алена-конец кода CSS*/
 
