@@ -15,12 +15,12 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-top: 5vh;
     }
 
     .about__headline {
         display: flexbox;
         width: 87vw;
-        margin-top: 8vh;
         margin-bottom: 1vh;
 
         font-family: 'Oswald';
@@ -114,40 +114,144 @@
         white-space: nowrap;
     }
 
-    .diet__point_meat{
+    .diet__point_meat {
         list-style-image: url("/assests/img/about_meat.svg");
         padding-left: 8%;
     }
+
     .diet__point_bones {
         list-style-image: url(/assests/img/about_bones.svg);
         padding-left: 8%;
     }
+
     .diet__point_vegs {
         list-style-image: url(/assests/img/about_vegs.svg);
         padding-left: 8%;
     }
+
     .diet__point_liver {
         list-style-image: url(/assests/img/about_liver.svg);
         padding-left: 8%;
     }
+
     .diet__point_subprod {
         list-style-image: url(/assests/img/about_subprod.svg);
         padding-left: 8%;
     }
+
     .diet__point_seeds {
         list-style-image: url(/assests/img/about_seeds.svg);
         padding-left: 8%;
     }
+
     .diet__point_fruits {
         list-style-image: url(/assests/img/about_fruits.svg);
         padding-left: 8%;
     }
 
     .rations {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5vh;
 
+        background-image: url("/assests/img/rations_ellipse.svg");
+        background-repeat: no-repeat;
+        background-position-x: 49vw;
+        background-position-y: 5vh;
     }
 
-/* Лиза — конец кода CSS*/
+    .rations__headline {
+        display: flexbox;
+        width: 283px;
+        height: 52px;
+
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 130%;
+
+        letter-spacing: 0.02em;
+    }
+
+    .rations__adultdog {
+        display: flexbox;
+        margin-bottom: 1%;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 130%;
+    }
+
+    .rations__meat {
+        display: flexbox;
+        margin-top: 0%;
+        margin-bottom: 1%;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 130%;
+
+        color: #9F9E9D;
+    }
+
+    .rations__discription {
+        display: flexbox;
+        width: 280px;
+        height: 60px;
+        margin-bottom: 1%;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 140%;
+        text-align: center;
+
+        color: #434242;
+    }
+
+    .rations__quantity {
+        display: flexbox;
+        width: 192px;
+        height: 17px;
+        margin-top: 1%;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 130%;
+
+        color: #9F9E9D;
+    }
+
+    .rations__button {
+        display: flexbox;
+        padding: 13px 42px;
+
+        width: 160px;
+        height: 48px;
+        margin-top: 2%;
+
+        border: 1px solid #961914;
+        border-radius: 8px;
+        background-color: white;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 140%;
+
+        text-align: center;
+        color: #961914;
+    }
+
+    /* Лиза — конец кода CSS*/
 
     .whyZOOOV {}
 
