@@ -162,6 +162,7 @@
         cursor: pointer;
     }
 }
+
 /* - МОБИЛЬНАЯ ВЕРСИЯ - */
 @media (max-width:480px) {
     .container {
@@ -418,8 +419,7 @@
     }
 
     .about__headline {
-        display: flex;
-        width: 87vw;
+        width: 50vh;
         margin-bottom: 1vh;
 
         font-family: 'Oswald';
@@ -429,12 +429,10 @@
         line-height: 130%;
 
         letter-spacing: 0.02em;
-
-        color: #000000;
     }
 
     .about__description {
-        display: flex;
+        display: flexbox;
         width: 87vw;
         margin-bottom: 1vh;
 
@@ -448,7 +446,7 @@
     }
 
     .about__headlist {
-        display: flex;
+        display: flexbox;
         width: 75vw;
         margin-right: 12%;
         margin-bottom: 1%;
@@ -461,7 +459,7 @@
     }
 
     .about__list {
-        display: flex;
+        display: flexbox;
 
         font-family: 'Montserrat';
         font-style: normal;
@@ -477,7 +475,6 @@
 
     .list__text {
         color: #434242;
-        ;
     }
 
     .about__diet {
@@ -556,15 +553,11 @@
 
         background-image: url("/assests/img/rations_ellipse.svg");
         background-repeat: no-repeat;
-        background-position-x: 49vw;
+        background-position-x: 54vw;
         background-position-y: 5vh;
     }
 
     .rations__headline {
-        display: flexbox;
-        width: 283px;
-        height: 52px;
-
         font-family: 'Oswald';
         font-style: normal;
         font-weight: 700;
