@@ -1,5 +1,4 @@
 @media screen and (min-width:601px){
-
     a{
         color:#FFFFFF;
         text-decoration: none;
@@ -34,7 +33,6 @@
     .menu__btn > span::after {
         display: none;
     }
-    
     .menu__logo{
         display: flex;
         flex-direction: row;
@@ -64,7 +62,6 @@
     }
     .static__header_logo{
         display:none;}
-
     .startPage{
         display: flex;
         flex-direction: row;
@@ -75,7 +72,6 @@
         background-repeat:no-repeat;
         background-size:cover;
     }
-
     .startPage__texts{
         display: flex;
         flex-direction: row;
@@ -125,7 +121,6 @@
         letter-spacing: 0.01rem;
         line-height: 130%;
     }
-        
     .startPage__button_choose-diet{
         display: flex;
         flex-direction: row;
@@ -167,9 +162,12 @@
         cursor: pointer;
     }
 }
-@media screen and (min-width:250px) and (max-width:600px) {
-
-    a{
+/* - МОБИЛЬНАЯ ВЕРСИЯ - */
+@media (max-width:480px) {
+    .container {
+    }
+    /* КЭТ КЭТ КЭТ КЭТ КЭТ КЭТ КЭТ */
+    a {
         color:#FFFFFF;
         text-decoration: none;
     }
@@ -286,7 +284,6 @@
         align-items: flex-start;
         margin-top: -120vh;
     }
-    
     .menu__curve_right{
         display: none;
         opacity: 50%;
@@ -296,7 +293,6 @@
         margin-top: 15vh;
         margin-left: 20vw;
     }
-    
     .menu__item_button-choose-diet{
         display: flex;
         flex-direction: row;
@@ -379,8 +375,7 @@
         font-size: 1.1em;
         letter-spacing: 0.01rem;
         line-height: 130%;
-    }
-        
+    } 
     .startPage__button_choose-diet{
         display: flex;
         flex-direction: row;
@@ -414,20 +409,6 @@
         margin-top: -32vh;
         margin-right: 0vw;
     }
-    }
-    
-@media (max-width:480px) {
-    .container {
-        height: auto;
-        width: 375px;
-    }
-
-    .header {}
-
-    .main {}
-
-    .startPage {}
-
     /* Лиза — начало кода CSS*/
     .about {
         display: flex;
@@ -566,15 +547,14 @@
     }
 
 /* Лиза — конец кода CSS*/
-
-
+/* АННА АННА АННА АННА АННА АННА АННА АННА АННА АННА*/
     .whyZOOOV {}
 
     .loveAndCare {}
-
+/* АЛЁНА АЛЁНА АЛЁНА АЛЁНА АЛЁНА АЛЁНА АЛЁНА АЛЁНА */
     .aboutDelivery {}
 
     .FAQ {}
-
+/* ALEX ALEX ALEX ALEX ALEX */
     .footer {}
 }
