@@ -1,4 +1,7 @@
-@media screen and (min-width:601px){
+@media (min-width:992px){
+    .container {
+        width: 100vw;
+    }
     a{
         color:#FFFFFF;
         text-decoration: none;
@@ -452,34 +455,28 @@
         width: 75vw;
         margin-right: 12%;
         margin-bottom: 1%;
-
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 600;
         font-size: 18px;
         line-height: 130%;
     }
-
     .about__list {
         display: flex;
-
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 140%;
     }
-
     .list__point {
         color: #961914;
         padding-bottom: 3%;
     }
-
     .list__text {
         color: #434242;
         ;
     }
-
     .about__diet {
         display: flex;
         flex-direction: column;
@@ -487,14 +484,12 @@
         align-items: center;
         width: 326px;
         height: 450px;
-
+/* Лиза, не стоит задавать высоту и ширину блока в пикселях, т.к. это неадаптивно. Задай в процентах или vw, vh */
         background: #EAD1D0;
     }
-
     .diet__wave {
         position: absolute;
     }
-
     .diet__puppy {
         margin-right: 20%;
         font-family: 'Montserrat';
@@ -503,16 +498,15 @@
         font-size: 18px;
         line-height: 0%;
     }
-
+/* Лиза, размеры шрифта задавай в rem: 18px - это примерно 1.1 или 1.2rem */
     .diet__list {
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 500;
-        font-size: 16px;
+        font-size: 1rem;
         line-height: 250%;
         white-space: nowrap;
     }
-
     .diet__point_meat{
         list-style-image: url("/assests/img/about_meat.svg");
         padding-left: 8%;
@@ -556,5 +550,39 @@
 
     .FAQ {}
 /* ALEX ALEX ALEX ALEX ALEX */
-    .footer {}
+    .footer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: #961914;
+        color: #FFFFFF;
+    }
+    .footer__headline {
+        font-family: Oswald;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+        margin: 15% 0 0 5%;
+    }
+    .footer p {
+        font-family: Montserrat;
+        font-size: 1.1rem;
+        margin: 5% 5% 0 5%;
+    }
+    .footer__button {
+        /* flex: 0 1 80%; */
+        border: 2px solid #ffffff;
+        margin: 5% 5% 0 5%;
+        padding: 5%;     
+    }
+    .footer form {
+        margin-right: 5%;
+    }
+    .footer__form__headline {
+        font-family: Montserrat;
+        font-size: 1.7rem;
+    }
+    .footer > div {
+        background-color: #69120E;
+    }
 }
