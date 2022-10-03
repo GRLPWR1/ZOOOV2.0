@@ -1,7 +1,10 @@
-@media (min-width:992px){
-    .container {
-        width: 100vw;
-    }
+.container {
+    
+}
+
+
+@media screen and (min-width:601px){
+
     a{
         color:#FFFFFF;
         text-decoration: none;
@@ -36,6 +39,7 @@
     .menu__btn > span::after {
         display: none;
     }
+    
     .menu__logo{
         display: flex;
         flex-direction: row;
@@ -65,6 +69,7 @@
     }
     .static__header_logo{
         display:none;}
+
     .startPage{
         display: flex;
         flex-direction: row;
@@ -75,26 +80,23 @@
         background-repeat:no-repeat;
         background-size:cover;
     }
+
     .startPage__texts{
-        display: flex;
+        display: none;
         flex-direction: row;
     }
-    .startPage__texts_titleMobile{
-        display: none;
-    }
-    .startPage__texts_titleDesktop{
+    .startPage__texts_title{
         display: flex;
         color: #FFFFFF;
         flex-direction: row;
-        margin-top: -25vh;
-        margin-left: 5vw;
-        padding-right: 0vw;
-        padding-left: 0;
-        padding-top: 3vh;
+        margin-top: -15vh;
+        margin-left: 7vw;
+        padding-right: 55vw;
+        padding-top: 12vh;
         padding-bottom: 0vh;
         justify-content: flex-start;
         align-items: center;
-        font-size: 10em;
+        font-size: 2.55em;
         font-family: 'Oswald', sans-serif, bold;
         letter-spacing: 0.02rem;
         line-height: 130%;
@@ -102,75 +104,90 @@
     .startPage__texts_ellipse{
         display: flex;
         justify-content: flex-start;
-        align-items:flex-start;
-        margin-right: 0vw;
-        margin-left:-2.1vw;
-        margin-top: 8.2vh;
-        transform: matrix(1, -0.09, 0.14, 1, 0, 0);
-        zoom:4;
+        align-items: center;
+        margin-right: 70vw;
+        margin-left: -135vw;
+        margin-top: -6vh;
+        transform: matrix(1, -0.09, 0.14, 1, 0, 0)
+        /*box-sizing: border-box;
+        position: absolute;
+        left: 5.5vw;
+        top: 35vh;
+        width: 45vw;
+        height: 8vh;
+        /*position: flex;
+        margin-top: 35vh;
+        margin-right: 80vw;
+        justify-content: flex-start;
+        align-items: center;      
+        border: 4px solid #EC7973;
+        border-radius: 2px;
+        ;*/ 
     }
-
     .startPage__texts_description{
         display: flex;
         color: #FFFFFF;
         flex-direction: row;
         justify-content: flex-start;
         align-items:center;
-        margin-top: 10vh;
-        margin-left: -22.5vw;
+        margin-left: -113vw;
+        margin-top: 27vh;
+        padding-top: 11vh;
+        padding-right: 0vw;
+        padding-left: 0vw;
         font-family: 'Montserrat', sans-serif;
         font-weight: lighter;
-        font-size: 4em;
+        font-size: 1.1em;
         letter-spacing: 0.01rem;
         line-height: 130%;
     }
+        
     .startPage__button_choose-diet{
         display: flex;
         flex-direction: row;
         align-items: flex-end;
         justify-content: flex-start;
-        margin-top: 62vh;
-        margin-left: -23.7vw;
+        margin-top: 79vh;
+        padding-top: 0vh;
+        margin-left: -67vw;
         background-color: rgba(150, 25, 20, 1);
-        border-radius: 17px;
+        border-radius: 10px;
         color:#FFFFFF;
         font-family: 'Montserrat', 'Montserrat bold',sans-serif;
         font-weight: bold;
-        font-size: 3em;
-        width: 13vw;
-        height: 5vh;
+        font-size: 1em;
+        width: 55vw;
+        height: 6vh;
     }
     .startPage__button_choose-diet-name{
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        margin-left: 2.8vw;
-        margin-bottom: 1.7vh;
+        margin-left: 9vw;
+        margin-bottom: 2vh;
     }
     .startPage__ZOOOV{
         display: flex;
         flex-direction: row;
         align-items: flex-start;
         justify-content: flex-end;
-        zoom:4.57;
-        margin-right:-15.5vw;
-        margin-top: -9vh;
+        zoom:5;
+        margin-left:18.2vw;
+        margin-top: -11vh;
     }
-    .menu__item:hover{
+    .menu__item:hover {
         color: rgba(117, 17, 13, 1);
     }
-    .menu__item_button-choose-diet:hover, .startPage__button_choose-diet:hover{
+    .menu__item_button-choose-diet:hover, .startPage__button_choose-diet:hover {
         background-color:rgba(117, 17, 13, 1);
         cursor: pointer;
     }
 }
-/* - МОБИЛЬНАЯ ВЕРСИЯ - */
-@media (max-width:480px) {
-    .container {
-    }
-    /* КЭТ КЭТ КЭТ КЭТ КЭТ КЭТ КЭТ */
-    a {
+
+@media screen and (min-width:250px) and (max-width:600px) {
+
+    a{
         color:#FFFFFF;
         text-decoration: none;
     }
@@ -262,48 +279,52 @@
         margin-bottom: 0vh;
     }
     .menu__item {
+        /*display: block;
+        padding: 12px 24px;*/
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-top: -1vh;
-        margin-bottom: 7vh;
+        margin-top: -1.5vh;
+        margin-bottom: 5vh;
         margin-left: 0vw;
         padding-left: 0vw;
-        margin-right:7vw;
+        margin-right:4vw;
         padding-right:35vw;
         color: rgb(11, 11, 11);
         font-family: 'Montserrat', 'Montserrat Regular',sans-serif;
-        font-size: 1.7em;
+        font-size: 2em;
         font-weight: 600;
         text-decoration: none;
         text-align: center;
         transition-duration: .25s;
     }
     .menu__curve_left {
-        display: none;
-        opacity: 50%;
+        display: flex;
+        opacity: 30%;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
         margin-top: -120vh;
     }
+    
     .menu__curve_right{
-        display: none;
-        opacity: 50%;
+        display: flex;
+        opacity: 30%;
         flex-direction: column;
         justify-content: flex-end;
         align-items: flex-start;
         margin-top: 15vh;
         margin-left: 20vw;
     }
+    
     .menu__item_button-choose-diet{
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        margin-top: 8vh;
+        margin-top: 12vh;
         margin-bottom: 5vh;
-        margin-left:21vw;
+        margin-left:22vw;
         background-color: rgba(150, 25, 20, 1);
         border-radius: 10px;
         color:#FFFFFF;
@@ -334,11 +355,11 @@
         display: flex;
         flex-direction: row;
     }
-    .startPage__texts_titleMobile{
+    .startPage__texts_title{
         display: flex;
         color: #FFFFFF;
         flex-direction: row;
-        margin-top: -21vh;
+        margin-top: -15vh;
         margin-left: 7vw;
         padding-right: 55vw;
         padding-top: 12vh;
@@ -350,17 +371,28 @@
         letter-spacing: 0.02rem;
         line-height: 130%;
     }
-    .startPage__texts_titleDesktop{
-        display: none;
-    }
     .startPage__texts_ellipse{
         display: flex;
         justify-content: flex-start;
         align-items: center;
         margin-right: 70vw;
         margin-left: -135vw;
-        margin-top: -12vh;
+        margin-top: -6vh;
         transform: matrix(1, -0.09, 0.14, 1, 0, 0)
+        /*box-sizing: border-box;
+        position: absolute;
+        left: 5.5vw;
+        top: 35vh;
+        width: 45vw;
+        height: 8vh;
+        /*position: flex;
+        margin-top: 35vh;
+        margin-right: 80vw;
+        justify-content: flex-start;
+        align-items: center;      
+        border: 4px solid #EC7973;
+        border-radius: 2px;
+        ;*/ 
     }
     .startPage__texts_description{
         display: flex;
@@ -369,7 +401,7 @@
         justify-content: flex-start;
         align-items:center;
         margin-left: -113vw;
-        margin-top: 20vh;
+        margin-top: 27vh;
         padding-top: 11vh;
         padding-right: 0vw;
         padding-left: 0vw;
@@ -378,13 +410,14 @@
         font-size: 1.1em;
         letter-spacing: 0.01rem;
         line-height: 130%;
-    } 
+    }
+        
     .startPage__button_choose-diet{
         display: flex;
         flex-direction: row;
         align-items: flex-end;
         justify-content: flex-start;
-        margin-top: 75vh;
+        margin-top: 79vh;
         padding-top: 0vh;
         margin-left: -67vw;
         background-color: rgba(150, 25, 20, 1);
@@ -409,270 +442,50 @@
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
-        margin-top: -32vh;
+        margin-top: -38vh;
         margin-right: 0vw;
     }
-    /* Лиза — начало кода CSS*/
+    .menu__item:hover {
+        color: rgba(117, 17, 13, 1);
+    }
+    .menu__item_button-choose-diet:hover, .startPage__button_choose-diet:hover {
+        background-color:rgba(117, 17, 13, 1);
+        cursor: pointer;
+    }
+    }
+    
+@media (max-width:480){
+    .container {
+    
+    }
+    .header {
+
+    }
+    .main {
+
+    }
+    .startPage {
+
+    }
     .about {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .about__headline {
-        display: flex;
-        width: 87vw;
-        margin-top: 8vh;
-        margin-bottom: 1vh;
-
-        font-family: 'Oswald';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 40px;
-        line-height: 130%;
-
-        letter-spacing: 0.02em;
-
-        color: #000000;
     }
-
-    .about__description {
-        display: flex;
-        width: 87vw;
-        margin-bottom: 1vh;
-
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 150%;
-
-        color: #434242;
-    }
-
-    .about__headlist {
-        display: flex;
-        width: 75vw;
-        margin-right: 12%;
-        margin-bottom: 1%;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 130%;
-    }
-    .about__list {
-        display: flex;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 140%;
-    }
-    .list__point {
-        color: #961914;
-        padding-bottom: 3%;
-    }
-    .list__text {
-        color: #434242;
-        ;
-    }
-    .about__diet {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 326px;
-        height: 450px;
-/* Лиза, не стоит задавать высоту и ширину блока в пикселях, т.к. это неадаптивно. Задай в процентах или vw, vh */
-        background: #EAD1D0;
-    }
-    .diet__wave {
-        position: absolute;
-    }
-    .diet__puppy {
-        margin-right: 20%;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 0%;
-    }
-/* Лиза, размеры шрифта задавай в rem: 18px - это примерно 1.1 или 1.2rem */
-    .diet__list {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 1rem;
-        line-height: 250%;
-        white-space: nowrap;
-    }
-    .diet__point_meat{
-        list-style-image: url("/assests/img/about_meat.svg");
-        padding-left: 8%;
-    }
-    .diet__point_bones {
-        list-style-image: url(/assests/img/about_bones.svg);
-        padding-left: 8%;
-    }
-    .diet__point_vegs {
-        list-style-image: url(/assests/img/about_vegs.svg);
-        padding-left: 8%;
-    }
-    .diet__point_liver {
-        list-style-image: url(/assests/img/about_liver.svg);
-        padding-left: 8%;
-    }
-    .diet__point_subprod {
-        list-style-image: url(/assests/img/about_subprod.svg);
-        padding-left: 8%;
-    }
-    .diet__point_seeds {
-        list-style-image: url(/assests/img/about_seeds.svg);
-        padding-left: 8%;
-    }
-    .diet__point_fruits {
-        list-style-image: url(/assests/img/about_fruits.svg);
-        padding-left: 8%;
-    }
-
     .rations {
 
     }
-/* Лиза — конец кода CSS*/
-.whyZOOOV  {
-        display: flex;
-        flex-direction: column;
-    }
-    .whyZOOOV h2 {
-        position: relative;
-        margin-top: 15vh;
-        left: 7.2vw;
-        font-family: 'Oswald';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 2.5rem;
-        line-height: 130%;
-    }
-    .whyZOOOV div {
-        position: relative;
-        margin: 0px 20px 46px 24px;        
-        font-family: 'Montserrat';
-        font-style: normal;
-        color: #000000;
-    }
-    .whyZOOOV img  {
-        margin-bottom: 1.73vh;
-    }
-    .whyZOOOV h3 {
-        margin-bottom: 1vh;
-        font-weight: 600;
-        font-size: 1.12rem;
-    }
-    .p {
-        margin-bottom: 8vh;
-    }
-    .LoveAndCare {
-        display: flex;
-        flex-direction: column;
-        height: 235vh;
-        left: 7.2vw;
-        background: #FFF4F3;
-    }
-    .LoveAndCare h2 {
-        position: relative;
-        top: 4vh;
-        /* width: 25.56vw; */
-        left: 7.2vw;
-        font-family: 'Oswald';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 2.5rem;
-        line-height: 130%;
-        letter-spacing: 0.02em;
-        color: #000000;
-    }
-    .text {
-        position: relative;
-        top: 1vh;
-        width: 88vw;
-        left: 7.2vw;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 1rem;
-        line-height: 130%;
-        color: #434242;
-    }
-    .pictures {
-        display: flex;
-        margin-top: 10vh;
-        left: 7.2vw;
-    }
-    .img_L1 {
-        position: relative;
-        left: 7.2vw;
-    }
-    .img_L2 {
-        position: relative;
-        top: 34.7vh;
-        left: -20vw;
-        width: 55vw;
-        height: 37.6vh;
-    }
-    .img_L3 {
-        position: relative;
-        top: 7.8vh;
-        left: -45vw;
-    }
-    .img_L4 {
-        position: relative;
-        top: 22vh;
-        left: -130vw;
-    }     
+    .whyZOOOV {
 
-/* АННА АННА АННА АННА АННА АННА АННА АННА АННА АННА*/
-    .whyZOOOV {}
+    }
+    .loveAndCare {
 
-    .loveAndCare {}
-/* АЛЁНА АЛЁНА АЛЁНА АЛЁНА АЛЁНА АЛЁНА АЛЁНА АЛЁНА */
-    .aboutDelivery {}
+    }
+    .aboutDelivery {
 
-    .FAQ {}
-/* ALEX ALEX ALEX ALEX ALEX */
+    }
+    .FAQ {
+
+    }
     .footer {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        background-color: #961914;
-        color: #FFFFFF;
-    }
-    .footer__headline {
-        font-family: Oswald;
-        font-size: 2rem;
-        font-weight: 700;
-        letter-spacing: 0.02em;
-        margin: 15% 0 0 5%;
-    }
-    .footer p {
-        font-family: Montserrat;
-        font-size: 1.1rem;
-        margin: 5% 5% 0 5%;
-    }
-    .footer__button {
-        /* flex: 0 1 80%; */
-        border: 2px solid #ffffff;
-        margin: 5% 5% 0 5%;
-        padding: 5%;     
-    }
-    .footer form {
-        margin-right: 5%;
-    }
-    .footer__form__headline {
-        font-family: Montserrat;
-        font-size: 1.7rem;
-    }
-    .footer > div {
-        background-color: #69120E;
+        
     }
 }
