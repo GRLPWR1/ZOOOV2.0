@@ -6,83 +6,89 @@
         color:#FFFFFF;
         text-decoration: none;
     }
-    ul { list-style: none; }
+    ul {
+        list-style: none;
+    }
     #menu__toggle {
         display: none;
     }
-    #menu__toggle:checked + .menu__btn > span {
+    #menu__toggle:checked+.menu__btn>span {
         display: none;
     }
-    #menu__toggle:checked + .menu__btn > span::before {
+    #menu__toggle:checked+.menu__btn>span::before {
         display: none;
     }
-    #menu__toggle:checked + .menu__btn > span::after {
+    #menu__toggle:checked+.menu__btn>span::after {
         display: none;
     }
-    #menu__toggle:checked ~ .menu__box {
+    #menu__toggle:checked~.menu__box {
         display: none;
     }
-    .menu__btn, .menu__box,  .menu__curve_left,  .menu__curve_right  {
+    .menu__btn,
+    .menu__box,
+    .menu__curve_left,
+    .menu__curve_right {
         display: none;
     }
-    .menu__btn > span,
-    .menu__btn > span::before,
-    .menu__btn > span::after {
+    .menu__btn>span,
+    .menu__btn>span::before,
+    .menu__btn>span::after {
         display: none;
     }
-    .menu__btn > span::before {
+    .menu__btn>span::before {
         display: none;
     }
-    .menu__btn > span::after {
+    .menu__btn>span::after {
         display: none;
     }
-    .menu__logo{
+    .menu__logo {
         display: flex;
         flex-direction: row;
         margin-right: 12vw;
-        zoom:3;
+        zoom: 3;
     }
     .menu__box {
         display: flex;
         flex-direction: row;
-        justify-content:space-around;
+        justify-content: space-around;
         font-size: 2em;
     }
     .menu__item {
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content:space-evenly;
+        justify-content: space-evenly;
         margin-top: 1vh;
-        color:#FFFFFF;
-        font-family: 'Montserrat', 'Montserrat Regular',sans-serif;
+        color: #FFFFFF;
+        font-family: 'Montserrat', 'Montserrat Regular', sans-serif;
         font-size: 1em;
         font-weight: 500;
         text-decoration: none;
     }
-    .menu__item_button-choose-diet{
+    .menu__item_button-choose-diet {
         display: none;
     }
-    .static__header_logo{
-        display:none;}
-    .startPage{
+    .static__header_logo {
+        display: none;
+    }
+    .startPage {
         display: flex;
         flex-direction: row;
         margin-top: -11vh;
-        width:100vw;
-        height:100vh;
+        width: 100vw;
+        height: 100vh;
         background-image: url(./img/DogDesktop.jpg);
-        background-repeat:no-repeat;
-        background-size:cover;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
-    .startPage__texts{
+    .startPage__texts {
         display: flex;
         flex-direction: row;
     }
-    .startPage__texts_titleMobile{
+    .startPage__texts_titleMobile {
         display: none;
     }
-    .startPage__texts_titleDesktop{
+    .startPage__texts_titleDesktop {
         display: flex;
         color: #FFFFFF;
         flex-direction: row;
@@ -99,23 +105,22 @@
         letter-spacing: 0.02rem;
         line-height: 130%;
     }
-    .startPage__texts_ellipse{
+    .startPage__texts_ellipse {
         display: flex;
         justify-content: flex-start;
-        align-items:flex-start;
+        align-items: flex-start;
         margin-right: 0vw;
-        margin-left:-2.1vw;
+        margin-left: -2.1vw;
         margin-top: 8.2vh;
         transform: matrix(1, -0.09, 0.14, 1, 0, 0);
-        zoom:4;
+        zoom: 4;
     }
-
-    .startPage__texts_description{
+    .startPage__texts_description {
         display: flex;
         color: #FFFFFF;
         flex-direction: row;
         justify-content: flex-start;
-        align-items:center;
+        align-items: center;
         margin-top: 10vh;
         margin-left: -22.5vw;
         font-family: 'Montserrat', sans-serif;
@@ -124,7 +129,7 @@
         letter-spacing: 0.01rem;
         line-height: 130%;
     }
-    .startPage__button_choose-diet{
+    .startPage__button_choose-diet {
         display: flex;
         flex-direction: row;
         align-items: flex-end;
@@ -133,14 +138,14 @@
         margin-left: -23.7vw;
         background-color: rgba(150, 25, 20, 1);
         border-radius: 17px;
-        color:#FFFFFF;
-        font-family: 'Montserrat', 'Montserrat bold',sans-serif;
+        color: #FFFFFF;
+        font-family: 'Montserrat', 'Montserrat bold', sans-serif;
         font-weight: bold;
         font-size: 3em;
         width: 13vw;
         height: 5vh;
     }
-    .startPage__button_choose-diet-name{
+    .startPage__button_choose-diet-name {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -148,47 +153,47 @@
         margin-left: 2.8vw;
         margin-bottom: 1.7vh;
     }
-    .startPage__ZOOOV{
+    .startPage__ZOOOV {
         display: flex;
         flex-direction: row;
         align-items: flex-start;
         justify-content: flex-end;
-        zoom:4.57;
-        margin-right:-15.5vw;
+        zoom: 4.57;
+        margin-right: -15.5vw;
         margin-top: -9vh;
     }
-    .menu__item:hover{
+    .menu__item:hover {
         color: rgba(117, 17, 13, 1);
     }
-    .menu__item_button-choose-diet:hover, .startPage__button_choose-diet:hover{
-        background-color:rgba(117, 17, 13, 1);
+    .menu__item_button-choose-diet:hover,
+    .startPage__button_choose-diet:hover {
+        background-color: rgba(117, 17, 13, 1);
         cursor: pointer;
     }
 }
 /* - МОБИЛЬНАЯ ВЕРСИЯ - */
 @media (max-width:480px) {
-    .container {
-    }
+    .container {}
     /* КЭТ КЭТ КЭТ КЭТ КЭТ КЭТ КЭТ */
     a {
-        color:#FFFFFF;
+        color: #FFFFFF;
         text-decoration: none;
     }
     #menu__toggle {
         opacity: 0;
     }
-    #menu__toggle:checked + .menu__btn > span {
+    #menu__toggle:checked+.menu__btn>span {
         transform: rotate(45deg);
     }
-    #menu__toggle:checked + .menu__btn > span::before {
+    #menu__toggle:checked+.menu__btn>span::before {
         top: 0;
         transform: rotate(0deg);
     }
-    #menu__toggle:checked + .menu__btn > span::after {
+    #menu__toggle:checked+.menu__btn>span::after {
         top: 0;
         transform: rotate(90deg);
     }
-    #menu__toggle:checked ~ .menu__box {
+    #menu__toggle:checked~.menu__box {
         right: 0 !important;
     }
     .menu__btn {
@@ -201,9 +206,9 @@
         cursor: pointer;
         z-index: 1;
     }
-    .menu__btn > span,
-    .menu__btn > span::before,
-    .menu__btn > span::after {
+    .menu__btn>span,
+    .menu__btn>span::before,
+    .menu__btn>span::after {
         display: block;
         position: absolute;
         width: 100%;
@@ -211,11 +216,11 @@
         background-color: #989595;
         transition-duration: .25s;
     }
-    .menu__btn > span::before {
+    .menu__btn>span::before {
         content: '';
         top: -8px;
     }
-    .menu__btn > span::after {
+    .menu__btn>span::after {
         content: '';
         top: 8px;
     }
@@ -233,7 +238,7 @@
         box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
         transition-duration: .25s;
     }
-    .menu__logo{
+    .menu__logo {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -241,24 +246,24 @@
         margin-top: -1vh;
         margin-bottom: 2vh;
     }
-    .static {     
-        width:100vw;
-        z-index:2;
-        height:6vh;
-        position: fixed;   
+    .static {
+        width: 100vw;
+        z-index: 2;
+        height: 6vh;
+        position: fixed;
     }
     .static__header {
-    /* background-color:#FFFFFF;*/
-        height:6vh;
+        /* background-color:#FFFFFF;*/
+        height: 6vh;
     }
-    .static__header_logo{
+    .static__header_logo {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        justify-content:center;
+        justify-content: center;
         margin-top: 0vh;
         padding-top: 0.5vh;
-        padding-left:4.5vw;
+        padding-left: 4.5vw;
         margin-bottom: 0vh;
     }
     .menu__item {
@@ -269,10 +274,10 @@
         margin-bottom: 7vh;
         margin-left: 0vw;
         padding-left: 0vw;
-        margin-right:7vw;
-        padding-right:35vw;
+        margin-right: 7vw;
+        padding-right: 35vw;
         color: rgb(11, 11, 11);
-        font-family: 'Montserrat', 'Montserrat Regular',sans-serif;
+        font-family: 'Montserrat', 'Montserrat Regular', sans-serif;
         font-size: 1.7em;
         font-weight: 600;
         text-decoration: none;
@@ -287,7 +292,7 @@
         align-items: flex-start;
         margin-top: -120vh;
     }
-    .menu__curve_right{
+    .menu__curve_right {
         display: none;
         opacity: 50%;
         flex-direction: column;
@@ -296,45 +301,45 @@
         margin-top: 15vh;
         margin-left: 20vw;
     }
-    .menu__item_button-choose-diet{
+    .menu__item_button-choose-diet {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
         margin-top: 8vh;
         margin-bottom: 5vh;
-        margin-left:21vw;
+        margin-left: 21vw;
         background-color: rgba(150, 25, 20, 1);
         border-radius: 10px;
-        color:#FFFFFF;
-        font-family: 'Montserrat', 'Montserrat Regular',sans-serif;
+        color: #FFFFFF;
+        font-family: 'Montserrat', 'Montserrat Regular', sans-serif;
         font-style: normal;
         font-weight: 600;
         font-size: 1.2em;
         width: 60vw;
         height: 6.5vh;
     }
-    .menu__item_button-choose-diet-name{
+    .menu__item_button-choose-diet-name {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
         margin-left: 0vw;
     }
-    .startPage{
+    .startPage {
         display: flex;
         flex-direction: row;
-        width:100vw;
-        height:100vh;
+        width: 100vw;
+        height: 100vh;
         background-image: url(./img/DogMobile.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
-    .startPage__texts{
+    .startPage__texts {
         display: flex;
         flex-direction: row;
     }
-    .startPage__texts_titleMobile{
+    .startPage__texts_titleMobile {
         display: flex;
         color: #FFFFFF;
         flex-direction: row;
@@ -350,10 +355,10 @@
         letter-spacing: 0.02rem;
         line-height: 130%;
     }
-    .startPage__texts_titleDesktop{
+    .startPage__texts_titleDesktop {
         display: none;
     }
-    .startPage__texts_ellipse{
+    .startPage__texts_ellipse {
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -362,12 +367,12 @@
         margin-top: -12vh;
         transform: matrix(1, -0.09, 0.14, 1, 0, 0)
     }
-    .startPage__texts_description{
+    .startPage__texts_description {
         display: flex;
         color: #FFFFFF;
         flex-direction: row;
         justify-content: flex-start;
-        align-items:center;
+        align-items: center;
         margin-left: -113vw;
         margin-top: 20vh;
         padding-top: 11vh;
@@ -378,8 +383,8 @@
         font-size: 1.1em;
         letter-spacing: 0.01rem;
         line-height: 130%;
-    } 
-    .startPage__button_choose-diet{
+    }
+    .startPage__button_choose-diet {
         display: flex;
         flex-direction: row;
         align-items: flex-end;
@@ -389,14 +394,14 @@
         margin-left: -67vw;
         background-color: rgba(150, 25, 20, 1);
         border-radius: 10px;
-        color:#FFFFFF;
-        font-family: 'Montserrat', 'Montserrat bold',sans-serif;
+        color: #FFFFFF;
+        font-family: 'Montserrat', 'Montserrat bold', sans-serif;
         font-weight: bold;
         font-size: 1em;
         width: 55vw;
         height: 6vh;
     }
-    .startPage__button_choose-diet-name{
+    .startPage__button_choose-diet-name {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -404,7 +409,7 @@
         margin-left: 9vw;
         margin-bottom: 2vh;
     }
-    .startPage__ZOOOV{
+    .startPage__ZOOOV {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -417,41 +422,31 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-top: 5vh;
     }
-
     .about__headline {
-        display: flex;
-        width: 87vw;
-        margin-top: 8vh;
+        width: 50vh;
         margin-bottom: 1vh;
-
         font-family: 'Oswald';
         font-style: normal;
         font-weight: 700;
         font-size: 40px;
         line-height: 130%;
-
         letter-spacing: 0.02em;
-
-        color: #000000;
     }
-
     .about__description {
-        display: flex;
+        display: flexbox;
         width: 87vw;
         margin-bottom: 1vh;
-
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 150%;
-
         color: #434242;
     }
-
     .about__headlist {
-        display: flex;
+        display: flexbox;
         width: 75vw;
         margin-right: 12%;
         margin-bottom: 1%;
@@ -462,11 +457,11 @@
         line-height: 130%;
     }
     .about__list {
-        display: flex;
+        display: flexbox;
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 1rem;
         line-height: 140%;
     }
     .list__point {
@@ -475,7 +470,6 @@
     }
     .list__text {
         color: #434242;
-        ;
     }
     .about__diet {
         display: flex;
@@ -507,7 +501,7 @@
         line-height: 250%;
         white-space: nowrap;
     }
-    .diet__point_meat{
+    .diet__point_meat {
         list-style-image: url("/assests/img/about_meat.svg");
         padding-left: 8%;
     }
@@ -535,19 +529,92 @@
         list-style-image: url(/assests/img/about_fruits.svg);
         padding-left: 8%;
     }
-
     .rations {
-
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5vh;
+        background-image: url("/assests/img/rations_ellipse.svg");
+        background-repeat: no-repeat;
+        background-position-x: 54vw;
+        background-position-y: 5vh;
     }
-
-/* Лиза — конец кода CSS*/
-/* АННА АННА АННА АННА АННА АННА АННА АННА АННА АННА*/
+    .rations__headline {
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 130%;
+        letter-spacing: 0.02em;
+    }
+    .rations__adultdog {
+        display: flexbox;
+        margin-bottom: 1%;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 130%;
+    }
+    .rations__meat {
+        display: flexbox;
+        margin-top: 0%;
+        margin-bottom: 1%;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 130%;
+        color: #9F9E9D;
+    }
+    .rations__discription {
+        display: flexbox;
+        width: 280px;
+        height: 60px;
+        margin-bottom: 1%;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 140%;
+        text-align: center;
+        color: #434242;
+    }
+    .rations__quantity {
+        display: flexbox;
+        width: 192px;
+        height: 17px;
+        margin-top: 1%;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 130%;
+        color: #9F9E9D;
+    }
+    .rations__button {
+        display: flexbox;
+        padding: 13px 42px;
+        width: 160px;
+        height: 48px;
+        margin-top: 2%;
+        border: 1px solid #961914;
+        border-radius: 8px;
+        background-color: white;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 140%;
+        text-align: center;
+        color: #961914;
+    }
+    /* Лиза — конец кода CSS*/
+    /* АННА АННА АННА АННА АННА АННА АННА*/
     .whyZOOOV {}
-
     .loveAndCare {}
-/* АЛЁНА АЛЁНА АЛЁНА АЛЁНА АЛЁНА АЛЁНА АЛЁНА АЛЁНА */
+    /* АЛЁНА АЛЁНА АЛЁНА АЛЁНА АЛЁНА АЛЁНА АЛЁНА АЛЁНА */
     .aboutDelivery {}
-
     .FAQ {}
 /* ALEX ALEX ALEX ALEX ALEX */
     .footer {
