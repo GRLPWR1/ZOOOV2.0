@@ -173,7 +173,9 @@
 }
 /* - МОБИЛЬНАЯ ВЕРСИЯ - */
 @media (max-width:480px) {
-    .container {}
+    .container {
+        height: 100vh;
+    }
     /* КЭТ КЭТ КЭТ КЭТ КЭТ КЭТ КЭТ */
     a {
         color: #FFFFFF;
@@ -644,6 +646,7 @@
     }
     .footer form {
         margin-right: 5%;
+        padding: 5%;
     }
     .footer__form__headline {
         font-family: Montserrat;
