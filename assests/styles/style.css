@@ -577,6 +577,7 @@
     }
     .footer form {
         margin-right: 5%;
+        padding: 5%;
     }
     .footer__form__headline {
         font-family: Montserrat;
