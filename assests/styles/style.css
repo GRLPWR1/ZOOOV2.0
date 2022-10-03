@@ -1,58 +1,72 @@
-@media (min-width:992px){
+@media (min-width:992px) {
     .container {
         width: 100vw;
     }
-    a{
-        color:#FFFFFF;
+
+    a {
+        color: #FFFFFF;
         text-decoration: none;
     }
+
     ul {
         list-style: none;
     }
+
     #menu__toggle {
         display: none;
     }
+
     #menu__toggle:checked+.menu__btn>span {
         display: none;
     }
+
     #menu__toggle:checked+.menu__btn>span::before {
         display: none;
     }
+
     #menu__toggle:checked+.menu__btn>span::after {
         display: none;
     }
+
     #menu__toggle:checked~.menu__box {
         display: none;
     }
+
     .menu__btn,
     .menu__box,
     .menu__curve_left,
     .menu__curve_right {
         display: none;
     }
+
     .menu__btn>span,
     .menu__btn>span::before,
     .menu__btn>span::after {
         display: none;
     }
+
     .menu__btn>span::before {
         display: none;
     }
+
     .menu__btn>span::after {
         display: none;
     }
+
     .menu__logo {
         display: flex;
         flex-direction: row;
         margin-right: 12vw;
         zoom: 3;
     }
+
     .menu__box {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         font-size: 2em;
     }
+
     .menu__item {
         display: flex;
         flex-direction: row;
@@ -65,12 +79,15 @@
         font-weight: 500;
         text-decoration: none;
     }
+
     .menu__item_button-choose-diet {
         display: none;
     }
+
     .static__header_logo {
         display: none;
     }
+
     .startPage {
         display: flex;
         flex-direction: row;
@@ -81,13 +98,16 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     .startPage__texts {
         display: flex;
         flex-direction: row;
     }
+
     .startPage__texts_titleMobile {
         display: none;
     }
+
     .startPage__texts_titleDesktop {
         display: flex;
         color: #FFFFFF;
@@ -105,6 +125,7 @@
         letter-spacing: 0.02rem;
         line-height: 130%;
     }
+
     .startPage__texts_ellipse {
         display: flex;
         justify-content: flex-start;
@@ -115,6 +136,7 @@
         transform: matrix(1, -0.09, 0.14, 1, 0, 0);
         zoom: 4;
     }
+
     .startPage__texts_description {
         display: flex;
         color: #FFFFFF;
@@ -129,6 +151,7 @@
         letter-spacing: 0.01rem;
         line-height: 130%;
     }
+
     .startPage__button_choose-diet {
         display: flex;
         flex-direction: row;
@@ -145,6 +168,7 @@
         width: 13vw;
         height: 5vh;
     }
+
     .startPage__button_choose-diet-name {
         display: flex;
         flex-direction: row;
@@ -153,6 +177,7 @@
         margin-left: 2.8vw;
         margin-bottom: 1.7vh;
     }
+
     .startPage__ZOOOV {
         display: flex;
         flex-direction: row;
@@ -162,42 +187,52 @@
         margin-right: -15.5vw;
         margin-top: -9vh;
     }
+
     .menu__item:hover {
         color: rgba(117, 17, 13, 1);
     }
+
     .menu__item_button-choose-diet:hover,
     .startPage__button_choose-diet:hover {
         background-color: rgba(117, 17, 13, 1);
         cursor: pointer;
     }
 }
+
 /* - МОБИЛЬНАЯ ВЕРСИЯ - */
 @media (max-width:480px) {
     .container {
         height: 100vh;
     }
+
     /* КЭТ КЭТ КЭТ КЭТ КЭТ КЭТ КЭТ */
     a {
         color: #FFFFFF;
         text-decoration: none;
     }
+
     #menu__toggle {
         opacity: 0;
     }
+
     #menu__toggle:checked+.menu__btn>span {
         transform: rotate(45deg);
     }
+
     #menu__toggle:checked+.menu__btn>span::before {
         top: 0;
         transform: rotate(0deg);
     }
+
     #menu__toggle:checked+.menu__btn>span::after {
         top: 0;
         transform: rotate(90deg);
     }
+
     #menu__toggle:checked~.menu__box {
         right: 0 !important;
     }
+
     .menu__btn {
         /*border: 3px solid red;*/
         position: fixed;
@@ -208,6 +243,7 @@
         cursor: pointer;
         z-index: 1;
     }
+
     .menu__btn>span,
     .menu__btn>span::before,
     .menu__btn>span::after {
@@ -218,14 +254,17 @@
         background-color: #989595;
         transition-duration: .25s;
     }
+
     .menu__btn>span::before {
         content: '';
         top: -8px;
     }
+
     .menu__btn>span::after {
         content: '';
         top: 8px;
     }
+
     .menu__box {
         display: block;
         position: fixed;
@@ -240,6 +279,7 @@
         box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
         transition-duration: .25s;
     }
+
     .menu__logo {
         display: flex;
         flex-direction: column;
@@ -248,16 +288,19 @@
         margin-top: -1vh;
         margin-bottom: 2vh;
     }
+
     .static {
         width: 100vw;
         z-index: 2;
         height: 6vh;
         position: fixed;
     }
+
     .static__header {
         /* background-color:#FFFFFF;*/
         height: 6vh;
     }
+
     .static__header_logo {
         display: flex;
         flex-direction: column;
@@ -268,6 +311,7 @@
         padding-left: 4.5vw;
         margin-bottom: 0vh;
     }
+
     .menu__item {
         display: flex;
         flex-direction: column;
@@ -286,6 +330,7 @@
         text-align: center;
         transition-duration: .25s;
     }
+
     .menu__curve_left {
         display: none;
         opacity: 50%;
@@ -294,6 +339,7 @@
         align-items: flex-start;
         margin-top: -120vh;
     }
+
     .menu__curve_right {
         display: none;
         opacity: 50%;
@@ -303,6 +349,7 @@
         margin-top: 15vh;
         margin-left: 20vw;
     }
+
     .menu__item_button-choose-diet {
         display: flex;
         flex-direction: row;
@@ -321,6 +368,7 @@
         width: 60vw;
         height: 6.5vh;
     }
+
     .menu__item_button-choose-diet-name {
         display: flex;
         flex-direction: row;
@@ -328,6 +376,7 @@
         align-items: center;
         margin-left: 0vw;
     }
+
     .startPage {
         display: flex;
         flex-direction: row;
@@ -337,10 +386,12 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     .startPage__texts {
         display: flex;
         flex-direction: row;
     }
+
     .startPage__texts_titleMobile {
         display: flex;
         color: #FFFFFF;
@@ -357,9 +408,11 @@
         letter-spacing: 0.02rem;
         line-height: 130%;
     }
+
     .startPage__texts_titleDesktop {
         display: none;
     }
+
     .startPage__texts_ellipse {
         display: flex;
         justify-content: flex-start;
@@ -369,6 +422,7 @@
         margin-top: -12vh;
         transform: matrix(1, -0.09, 0.14, 1, 0, 0)
     }
+
     .startPage__texts_description {
         display: flex;
         color: #FFFFFF;
@@ -386,6 +440,7 @@
         letter-spacing: 0.01rem;
         line-height: 130%;
     }
+
     .startPage__button_choose-diet {
         display: flex;
         flex-direction: row;
@@ -403,6 +458,7 @@
         width: 55vw;
         height: 6vh;
     }
+
     .startPage__button_choose-diet-name {
         display: flex;
         flex-direction: row;
@@ -411,6 +467,7 @@
         margin-left: 9vw;
         margin-bottom: 2vh;
     }
+
     .startPage__ZOOOV {
         display: flex;
         flex-direction: column;
@@ -419,6 +476,7 @@
         margin-top: -32vh;
         margin-right: 0vw;
     }
+
     /* Лиза — начало кода CSS*/
     .about {
         display: flex;
@@ -426,16 +484,18 @@
         align-items: center;
         margin-top: 5vh;
     }
+
     .about__headline {
         width: 50vh;
         margin-bottom: 1vh;
         font-family: 'Oswald';
         font-style: normal;
         font-weight: 700;
-        font-size: 40px;
+        font-size: 2.5rem;
         line-height: 130%;
         letter-spacing: 0.02em;
     }
+
     .about__description {
         display: flexbox;
         width: 87vw;
@@ -443,10 +503,11 @@
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 1rem;
         line-height: 150%;
         color: #434242;
     }
+
     .about__headlist {
         display: flexbox;
         width: 75vw;
@@ -455,46 +516,51 @@
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 600;
-        font-size: 18px;
+        font-size: 1.1rem;
         line-height: 130%;
     }
+
     .about__list {
         display: flexbox;
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 400;
-        font-size: 1rem;
+        font-size: 1.1rem;
         line-height: 140%;
     }
+
     .list__point {
         color: #961914;
         padding-bottom: 3%;
     }
+
     .list__text {
         color: #434242;
     }
+
     .about__diet {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 326px;
-        height: 450px;
-/* Лиза, не стоит задавать высоту и ширину блока в пикселях, т.к. это неадаптивно. Задай в процентах или vw, vh */
+        width: 86.8vw;
+        height: 65vh;
         background: #EAD1D0;
     }
+
     .diet__wave {
         position: absolute;
     }
+
     .diet__puppy {
         margin-right: 20%;
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 600;
-        font-size: 18px;
+        font-size: 1.1rem;
         line-height: 0%;
     }
-/* Лиза, размеры шрифта задавай в rem: 18px - это примерно 1.1 или 1.2rem */
+
     .diet__list {
         font-family: 'Montserrat';
         font-style: normal;
@@ -503,34 +569,42 @@
         line-height: 250%;
         white-space: nowrap;
     }
+
     .diet__point_meat {
         list-style-image: url("/assests/img/about_meat.svg");
         padding-left: 8%;
     }
+
     .diet__point_bones {
         list-style-image: url(/assests/img/about_bones.svg);
         padding-left: 8%;
     }
+
     .diet__point_vegs {
         list-style-image: url(/assests/img/about_vegs.svg);
         padding-left: 8%;
     }
+
     .diet__point_liver {
         list-style-image: url(/assests/img/about_liver.svg);
         padding-left: 8%;
     }
+
     .diet__point_subprod {
         list-style-image: url(/assests/img/about_subprod.svg);
         padding-left: 8%;
     }
+
     .diet__point_seeds {
         list-style-image: url(/assests/img/about_seeds.svg);
         padding-left: 8%;
     }
+
     .diet__point_fruits {
         list-style-image: url(/assests/img/about_fruits.svg);
         padding-left: 8%;
     }
+
     .rations {
         display: flex;
         flex-direction: column;
@@ -541,23 +615,26 @@
         background-position-x: 54vw;
         background-position-y: 5vh;
     }
+
     .rations__headline {
         font-family: 'Oswald';
         font-style: normal;
         font-weight: 700;
-        font-size: 40px;
+        font-size: 2.5rem;
         line-height: 130%;
         letter-spacing: 0.02em;
     }
+
     .rations__adultdog {
         display: flexbox;
         margin-bottom: 1%;
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 600;
-        font-size: 16px;
+        font-size: 1rem;
         line-height: 130%;
     }
+
     .rations__meat {
         display: flexbox;
         margin-top: 0%;
@@ -565,58 +642,63 @@
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 400;
-        font-size: 13px;
+        font-size: 0.813rem;
         line-height: 130%;
         color: #9F9E9D;
     }
+
     .rations__discription {
         display: flexbox;
-        width: 280px;
-        height: 60px;
+        width: 70%;
+        height: 20%;
         margin-bottom: 1%;
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 400;
-        font-size: 14px;
+        font-size: 0.850rem;
         line-height: 140%;
         text-align: center;
         color: #434242;
     }
+
     .rations__quantity {
         display: flexbox;
-        width: 192px;
+        width: 54%;
         height: 17px;
-        margin-top: 1%;
+        margin-top: 0.5%;
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 400;
-        font-size: 13px;
+        font-size: 0.813rem;
         line-height: 130%;
         color: #9F9E9D;
     }
+
     .rations__button {
         display: flexbox;
-        padding: 13px 42px;
-        width: 160px;
-        height: 48px;
+        padding: 1% 4%;
+        width: 40%;
+        height: 3rem;
         margin-top: 2%;
         border: 1px solid #961914;
-        border-radius: 8px;
+        border-radius: 0.5rem;
         background-color: white;
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 600;
-        font-size: 16px;
+        font-size: 1rem;
         line-height: 140%;
         text-align: center;
         color: #961914;
     }
+
     /* Лиза — конец кода CSS*/
     /* АННА АННА АННА АННА АННА АННА АННА*/
-    .whyZOOOV  {
+    .whyZOOOV {
         display: flex;
         flex-direction: column;
     }
+
     .whyZOOOV h2 {
         position: relative;
         margin-top: 15vh;
@@ -627,24 +709,29 @@
         font-size: 2.5rem;
         line-height: 130%;
     }
+
     .whyZOOOV div {
         position: relative;
-        margin: 0px 20px 46px 24px;        
+        margin: 0px 20px 46px 24px;
         font-family: 'Montserrat';
         font-style: normal;
         color: #000000;
     }
-    .whyZOOOV img  {
+
+    .whyZOOOV img {
         margin-bottom: 1.73vh;
     }
+
     .whyZOOOV h3 {
         margin-bottom: 1vh;
         font-weight: 600;
         font-size: 1.12rem;
     }
+
     .p {
         margin-bottom: 8vh;
     }
+
     .LoveAndCare {
         display: flex;
         flex-direction: column;
@@ -652,6 +739,7 @@
         left: 7.2vw;
         background: #FFF4F3;
     }
+
     .LoveAndCare h2 {
         position: relative;
         top: 4vh;
@@ -665,6 +753,7 @@
         letter-spacing: 0.02em;
         color: #000000;
     }
+
     .text {
         position: relative;
         top: 1vh;
@@ -677,15 +766,18 @@
         line-height: 130%;
         color: #434242;
     }
+
     .pictures {
         display: flex;
         margin-top: 10vh;
         left: 7.2vw;
     }
+
     .img_L1 {
         position: relative;
         left: 7.2vw;
     }
+
     .img_L2 {
         position: relative;
         top: 34.7vh;
@@ -693,20 +785,25 @@
         width: 55vw;
         height: 37.6vh;
     }
+
     .img_L3 {
         position: relative;
         top: 7.8vh;
         left: -45vw;
     }
+
     .img_L4 {
         position: relative;
         top: 22vh;
         left: -130vw;
-    }     
+    }
+
     /* АЛЁНА АЛЁНА АЛЁНА АЛЁНА АЛЁНА АЛЁНА АЛЁНА АЛЁНА */
     .aboutDelivery {}
+
     .FAQ {}
-/* ALEX ALEX ALEX ALEX ALEX */
+
+    /* ALEX ALEX ALEX ALEX ALEX */
     .footer {
         display: flex;
         flex-direction: column;
@@ -714,6 +811,7 @@
         background-color: #961914;
         color: #FFFFFF;
     }
+
     .footer__headline {
         font-family: Oswald;
         font-size: 2rem;
@@ -721,26 +819,31 @@
         letter-spacing: 0.02em;
         margin: 15% 0 0 5%;
     }
+
     .footer p {
         font-family: Montserrat;
         font-size: 1.1rem;
         margin: 5% 5% 0 5%;
     }
+
     .footer__button {
         /* flex: 0 1 80%; */
         border: 2px solid #ffffff;
         margin: 5% 5% 0 5%;
-        padding: 5%;     
+        padding: 5%;
     }
+
     .footer form {
         margin-right: 5%;
         padding: 5%;
     }
+
     .footer__form__headline {
         font-family: Montserrat;
         font-size: 1.7rem;
     }
-    .footer > div {
+
+    .footer>div {
         background-color: #69120E;
     }
 }
