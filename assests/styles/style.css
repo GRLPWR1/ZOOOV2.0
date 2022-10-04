@@ -278,7 +278,7 @@
   summary::marker {
     display: none;
   }
-  summary {
+  summary.FAQ__question_visible {
     display: inline-block;
     padding: 0.3em 0.5em 0.3em 0.4em;
     font-size: 1.4em;
@@ -297,7 +297,7 @@
   summary ~ * {
     padding: 0em 1em 0 1em;
   }
-  details {
+  details.FAQ__question {
     display: block;
     margin-bottom: 0.5rem;
   }
