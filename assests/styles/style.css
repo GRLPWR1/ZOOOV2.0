@@ -486,7 +486,7 @@
     }
 
     .about__headline {
-        width: 50vh;
+        width: 90%;
         margin-bottom: 1vh;
         font-family: 'Oswald';
         font-style: normal;
@@ -497,7 +497,6 @@
     }
 
     .about__description {
-        display: flexbox;
         width: 87vw;
         margin-bottom: 1vh;
         font-family: 'Montserrat';
@@ -509,7 +508,6 @@
     }
 
     .about__headlist {
-        display: flexbox;
         width: 75vw;
         margin-right: 12%;
         margin-bottom: 1%;
@@ -521,7 +519,6 @@
     }
 
     .about__list {
-        display: flexbox;
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 400;
@@ -536,6 +533,11 @@
 
     .list__text {
         color: #434242;
+    }
+
+    .about__image {
+        width: 86.8vw;
+        height: auto;
     }
 
     .about__diet {
@@ -626,7 +628,6 @@
     }
 
     .rations__adultdog {
-        display: flexbox;
         margin-bottom: 1%;
         font-family: 'Montserrat';
         font-style: normal;
@@ -636,7 +637,6 @@
     }
 
     .rations__meat {
-        display: flexbox;
         margin-top: 0%;
         margin-bottom: 1%;
         font-family: 'Montserrat';
@@ -648,7 +648,6 @@
     }
 
     .rations__discription {
-        display: flexbox;
         width: 70%;
         height: 20%;
         margin-bottom: 1%;
@@ -662,9 +661,8 @@
     }
 
     .rations__quantity {
-        display: flexbox;
         width: 54%;
-        height: 17px;
+        height: 5%;
         margin-top: 0.5%;
         font-family: 'Montserrat';
         font-style: normal;
@@ -675,11 +673,10 @@
     }
 
     .rations__button {
-        display: flexbox;
-        padding: 1% 4%;
         width: 40%;
         height: 3rem;
         margin-top: 2%;
+        padding: 1% 4%;
         border: 1px solid #961914;
         border-radius: 0.5rem;
         background-color: white;
