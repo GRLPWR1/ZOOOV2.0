@@ -91,6 +91,9 @@
     .startPage__texts_titleMobile {
         display: none;
     }
+    .startPage_img{
+        display: none;
+    }
     .startPage__texts_titleDesktop {
         display: flex;
         color: #FFFFFF;
@@ -210,7 +213,7 @@
         /*border: 3px solid red;*/
         position: fixed;
         top: 20px;
-        right: 173px;
+        right: 643px;
         width: 26px;
         height: 26px;
         cursor: pointer;
@@ -248,6 +251,13 @@
         box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
         transition-duration: .25s;
     }
+    .startage_img{
+        display:flex;
+        width:100vw;
+        height:100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     .menu__logo {
         display: flex;
         flex-direction: column;
@@ -257,13 +267,15 @@
         margin-bottom: 2vh;
     }
     .static {
+        display: inline-block;
         width: 100vw;
         z-index: 2;
         height: 6vh;
         position: fixed;
     }
     .static__header {
-        /* background-color:#FFFFFF;*/
+        display: inline-block;
+        position: fixed;
         height: 6vh;
     }
     .static__header_logo {
@@ -280,9 +292,9 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-top: -1vh;
+        margin-top: -1.5vh;
         margin-bottom: 7vh;
-        margin-left: 0vw;
+        margin-left: -120vw;
         padding-left: 0vw;
         margin-right: 7vw;
         padding-right: 35vw;
@@ -354,8 +366,8 @@
         color: #FFFFFF;
         flex-direction: row;
         margin-top: -21vh;
-        margin-left: 7vw;
-        padding-right: 55vw;
+        margin-left: -92vw;
+        padding-right: 175vw;
         padding-top: 12vh;
         padding-bottom: 0vh;
         justify-content: flex-start;
@@ -373,7 +385,7 @@
         justify-content: flex-start;
         align-items: center;
         margin-right: 70vw;
-        margin-left: -135vw;
+        margin-left: -256vw;
         margin-top: -12vh;
         transform: matrix(1, -0.09, 0.14, 1, 0, 0)
     }
@@ -383,11 +395,12 @@
         flex-direction: row;
         justify-content: flex-start;
         align-items: center;
-        margin-left: -113vw;
-        margin-top: 20vh;
+        margin-left: -111vw;
+        margin-top: 26vh;
         padding-top: 11vh;
-        padding-right: 0vw;
+        padding-right: 30vw;
         padding-left: 0vw;
+        padding-bottom: 3vh;
         font-family: 'Montserrat', sans-serif;
         font-weight: lighter;
         font-size: 1.1em;
@@ -399,9 +412,9 @@
         flex-direction: row;
         align-items: flex-end;
         justify-content: flex-start;
-        margin-top: 75vh;
+        margin-top: 79vh;
         padding-top: 0vh;
-        margin-left: -67vw;
+        margin-left: -93vw;
         background-color: rgba(150, 25, 20, 1);
         border-radius: 10px;
         color: #FFFFFF;
@@ -416,16 +429,16 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        margin-left: 9vw;
+        margin-left: 8vw;
         margin-bottom: 2vh;
     }
     .startPage__ZOOOV {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: flex-end;
         justify-content: center;
-        margin-top: -32vh;
-        margin-right: 0vw;
+        margin-top: 73vh;
+        margin-left: -28vw;
     }
     /* Лиза — начало кода CSS*/
     .about {
