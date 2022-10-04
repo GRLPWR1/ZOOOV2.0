@@ -166,16 +166,15 @@
     background-color: #ffffff;
   }
   .aboutDelivery__title {
-    width: 324px;
-    height: 104px;
-    left: 26px;
-    top: 5898px;
+    height: 2.5em;
+    left: 1.63em;
+    top: 368.6em;
     margin: 1em 0em 0em 0em;
     padding: 1em 0 0.3em 0.8em;
     font-family: "Oswald";
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 2.5em;
     line-height: 130%;
     letter-spacing: 0.02em;
     text-align: start;
@@ -185,7 +184,6 @@
     max-width: 100%;
   }
   .aboutDelivery__row_arrow {
-    height: 75vh;
     position: absolute;
     margin: 6em 0 0 1em;
   }
@@ -201,24 +199,24 @@
   .item-about {
     justify-content: flex-start;
     align-items: flex-start;
-    width: 100vw;
-    height: 19vh;
+    max-width: 100vw;
+    max-height: 80vh;
     padding: 0.01em;
     margin: 1em;
   }
   .item-about__icon {
-    position: relative;
+    max-width: 100vw;
     padding: 0em;
     margin: 0.2em 0 0 0;
   }
   .item-about__title {
+    margin: 0.7em 0 0 0;
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.125em;
     line-height: 130%;
     color: #000000;
-    margin: 0.7em 0 0 0;
   }
   .item-about__text {
     padding: 0.3em;
@@ -226,7 +224,7 @@
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1em;
     line-height: 140%;
     color: #000000;
   }
@@ -239,16 +237,15 @@
     flex-direction: column;
   }
   .FAQ__title {
-    width: 324px;
-    height: 104px;
-    left: 26px;
-    top: 5898px;
+    height: 2.5em;
+    left: 1.625em;
+    top: 368.6em;
     margin: 1em 0em 0em 0em;
     padding: 1em 0 0.3em 0.8em;
     font-family: "Oswald";
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 2.5em;
     line-height: 130%;
     letter-spacing: 0.02em;
     text-align: start;
@@ -256,18 +253,21 @@
   }
   .FAQ__question {
     display: flex;
-    padding: 1.2em;
     width: 100vw;
+    padding: 1.2em;
+    margin-bottom: 0.5rem;
   }
-
   .FAQ__question_visible {
+    display: flex;
     width: 70vw;
+    padding: 0.3em 0.5em 0.3em 0.4em;
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1.4em;
     line-height: 140%;
     color: #000000;
+    cursor: pointer;
   }
   summary::-webkit-details-marker {
     display: none;
@@ -278,16 +278,10 @@
   summary::marker {
     display: none;
   }
-  summary.FAQ__question_visible {
-    display: inline-block;
-    padding: 0.3em 0.5em 0.3em 0.4em;
-    font-size: 1.4em;
-    cursor: pointer;
-  }
   summary:after {
+    display: flex;
+    justify-content: flex-end;
     content: "+";
-    margin-left: 1.3em;
-    display: inline-block;
     transition: transform 0.5s;
     color: rgba(150, 25, 20, 1);
   }
@@ -297,15 +291,12 @@
   summary ~ * {
     padding: 0em 1em 0 1em;
   }
-  details.FAQ__question {
-    display: block;
-    margin-bottom: 0.5rem;
-  }
+
   .FAQ__answer {
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.875em;
     line-height: 140%;
     color: #434242;
   }
