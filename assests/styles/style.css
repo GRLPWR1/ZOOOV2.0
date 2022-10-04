@@ -723,7 +723,7 @@
         color: #FFFFFF;
     }
     .footer__headline {
-        font-family: Oswald;
+        font-family: 'Oswald';
         font-size: 2rem;
         font-weight: 700;
         letter-spacing: 0.02em;
@@ -745,7 +745,7 @@
         padding: 5%;
     }
     .footer__form__headline {
-        font-family: Montserrat;
+        font-family: 'Montserrat';
         font-size: 1.7rem;
     }
     .footer > div {
