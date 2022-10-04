@@ -1,3 +1,5 @@
+@media screen and (min-width:481px){
+}
 @media (min-width:992px){
     .container {
         width: 100vw;
@@ -41,29 +43,30 @@
     .menu__btn>span::after {
         display: none;
     }
-    .menu__logo {
-        display: flex;
-        flex-direction: row;
-        margin-right: 12vw;
-        zoom: 3;
+    .menu__logo{
+        display: inline;
+        position: fixed;
+        left:2vw;
+        zoom:1.8;
     }
     .menu__box {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
-        font-size: 2em;
+        justify-content:space-evenly;
+        align-items: flex-start;
+        padding-left: 28vw;
+        padding-right: 5vw;
+        margin-right: 1vw;
+        font-size: 1.8em; 
+        text-align: right;
     }
     .menu__item {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
-        margin-top: 1vh;
-        color: #FFFFFF;
-        font-family: 'Montserrat', 'Montserrat Regular', sans-serif;
+        position:fixed;
+        color:rgb(166, 164, 164);
+        font-family: 'Montserrat', 'Montserrat Regular',sans-serif;
         font-size: 1em;
-        font-weight: 500;
-        text-decoration: none;
+        font-weight: bold;
+        text-decoration: none;  
     }
     .menu__item_button-choose-diet {
         display: none;
@@ -88,19 +91,22 @@
     .startPage__texts_titleMobile {
         display: none;
     }
+    .startPage_img{
+        display: none;
+    }
     .startPage__texts_titleDesktop {
         display: flex;
         color: #FFFFFF;
         flex-direction: row;
-        margin-top: -25vh;
-        margin-left: 5vw;
+        margin-top: -13vh;
+        margin-left: 10vw;
         padding-right: 0vw;
         padding-left: 0;
-        padding-top: 3vh;
+        padding-top: 19vh;
         padding-bottom: 0vh;
         justify-content: flex-start;
         align-items: center;
-        font-size: 10em;
+        font-size: 5rem;
         font-family: 'Oswald', sans-serif, bold;
         letter-spacing: 0.02rem;
         line-height: 130%;
@@ -110,14 +116,14 @@
         justify-content: flex-start;
         align-items: flex-start;
         margin-right: 0vw;
-        margin-left: -2.1vw;
-        margin-top: 8.2vh;
+        margin-left:-7.9vw;
+        margin-top: 29.9vh;
         transform: matrix(1, -0.09, 0.14, 1, 0, 0);
-        zoom: 4;
+        zoom:1.8;
     }
     .startPage__texts_description {
         display: flex;
-        color: #FFFFFF;
+        color:#FFFFFF;
         flex-direction: row;
         justify-content: flex-start;
         align-items: center;
@@ -125,7 +131,7 @@
         margin-left: -22.5vw;
         font-family: 'Montserrat', sans-serif;
         font-weight: lighter;
-        font-size: 4em;
+        font-size: 2rem;
         letter-spacing: 0.01rem;
         line-height: 130%;
     }
@@ -134,15 +140,15 @@
         flex-direction: row;
         align-items: flex-end;
         justify-content: flex-start;
-        margin-top: 62vh;
-        margin-left: -23.7vw;
+        margin-top: 82vh;
+        margin-left: -24.7vw;
         background-color: rgba(150, 25, 20, 1);
         border-radius: 17px;
         color: #FFFFFF;
         font-family: 'Montserrat', 'Montserrat bold', sans-serif;
         font-weight: bold;
-        font-size: 3em;
-        width: 13vw;
+        font-size: 1.5rem;
+        width: 10vw;
         height: 5vh;
     }
     .startPage__button_choose-diet-name {
@@ -150,8 +156,8 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        margin-left: 2.8vw;
-        margin-bottom: 1.7vh;
+        margin-left: 1.5vw;
+        margin-bottom: 1.5vh;
     }
     .startPage__ZOOOV {
         display: flex;
@@ -164,6 +170,7 @@
     }
     .menu__item:hover {
         color: rgba(117, 17, 13, 1);
+        text-decoration: underline;
     }
     .menu__item_button-choose-diet:hover,
     .startPage__button_choose-diet:hover {
@@ -171,12 +178,19 @@
         cursor: pointer;
     }
 }
+
 /* - МОБИЛЬНАЯ ВЕРСИЯ - */
+
 @media (max-width:480px) {
     .container {
+        display:flex;
+        flex-direction: column;
+        width: 100vw;
         height: 100vh;
     }
+}
     /* КЭТ КЭТ КЭТ КЭТ КЭТ КЭТ КЭТ */
+@media screen and (min-width:250px) and (max-width:480px) {
     a {
         color: #FFFFFF;
         text-decoration: none;
@@ -201,10 +215,10 @@
     .menu__btn {
         /*border: 3px solid red;*/
         position: fixed;
-        top: 20px;
-        right: 173px;
-        width: 26px;
-        height: 26px;
+        top: 2.2vh;
+        right: 164vw;
+        width: 7vw;
+        height: 7vh;
         cursor: pointer;
         z-index: 1;
     }
@@ -214,17 +228,20 @@
         display: block;
         position: absolute;
         width: 100%;
-        height: 2px;
+        /*height: 2px;*/
+        height: 0.22vh;
         background-color: #989595;
         transition-duration: .25s;
     }
     .menu__btn>span::before {
         content: '';
-        top: -8px;
+       /* top: -8px;*/
+        top: -1vh;
     }
     .menu__btn>span::after {
         content: '';
-        top: 8px;
+        /*top: 8px;*/
+        top: 1vh;
     }
     .menu__box {
         display: block;
@@ -240,6 +257,13 @@
         box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
         transition-duration: .25s;
     }
+    .startage_img{
+        display:flex;
+        width:100vw;
+        height:100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     .menu__logo {
         display: flex;
         flex-direction: column;
@@ -249,13 +273,15 @@
         margin-bottom: 2vh;
     }
     .static {
+        display: inline-block;
         width: 100vw;
         z-index: 2;
         height: 6vh;
         position: fixed;
     }
     .static__header {
-        /* background-color:#FFFFFF;*/
+        display: inline-block;
+        position: fixed;
         height: 6vh;
     }
     .static__header_logo {
@@ -272,9 +298,9 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-top: -1vh;
+        margin-top: -1.5vh;
         margin-bottom: 7vh;
-        margin-left: 0vw;
+        margin-left: -120vw;
         padding-left: 0vw;
         margin-right: 7vw;
         padding-right: 35vw;
@@ -346,8 +372,8 @@
         color: #FFFFFF;
         flex-direction: row;
         margin-top: -21vh;
-        margin-left: 7vw;
-        padding-right: 55vw;
+        margin-left: -92vw;
+        padding-right: 175vw;
         padding-top: 12vh;
         padding-bottom: 0vh;
         justify-content: flex-start;
@@ -365,7 +391,7 @@
         justify-content: flex-start;
         align-items: center;
         margin-right: 70vw;
-        margin-left: -135vw;
+        margin-left: -256vw;
         margin-top: -12vh;
         transform: matrix(1, -0.09, 0.14, 1, 0, 0)
     }
@@ -375,11 +401,12 @@
         flex-direction: row;
         justify-content: flex-start;
         align-items: center;
-        margin-left: -113vw;
-        margin-top: 20vh;
+        margin-left: -111vw;
+        margin-top: 26vh;
         padding-top: 11vh;
-        padding-right: 0vw;
+        padding-right: 30vw;
         padding-left: 0vw;
+        padding-bottom: 3vh;
         font-family: 'Montserrat', sans-serif;
         font-weight: lighter;
         font-size: 1.1em;
@@ -391,9 +418,9 @@
         flex-direction: row;
         align-items: flex-end;
         justify-content: flex-start;
-        margin-top: 75vh;
+        margin-top: 79vh;
         padding-top: 0vh;
-        margin-left: -67vw;
+        margin-left: -93vw;
         background-color: rgba(150, 25, 20, 1);
         border-radius: 10px;
         color: #FFFFFF;
@@ -408,16 +435,16 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        margin-left: 9vw;
+        margin-left: 8vw;
         margin-bottom: 2vh;
     }
     .startPage__ZOOOV {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: flex-end;
         justify-content: center;
-        margin-top: -32vh;
-        margin-right: 0vw;
+        margin-top: 73vh;
+        margin-left: -28vw;
     }
     /* Лиза — начало кода CSS*/
     .about {
@@ -715,14 +742,14 @@
         color: #FFFFFF;
     }
     .footer__headline {
-        font-family: Oswald;
+        font-family: 'Oswald';
         font-size: 2rem;
         font-weight: 700;
         letter-spacing: 0.02em;
         margin: 15% 0 0 5%;
     }
     .footer p {
-        font-family: Montserrat;
+        font-family: 'Montserrat';
         font-size: 1.1rem;
         margin: 5% 5% 0 5%;
     }
@@ -737,7 +764,7 @@
         padding: 5%;
     }
     .footer__form__headline {
-        font-family: Montserrat;
+        font-family: 'Montserrat';
         font-size: 1.7rem;
     }
     .footer > div {
