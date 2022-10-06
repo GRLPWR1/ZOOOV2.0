@@ -328,9 +328,10 @@
     width: 86.8vw;
     height: 65vh;
     background: #ead1d0;
-  }
-  .diet__wave {
-    position: absolute;
+
+    background-image: url(/assests/img/about_wave.svg);
+    background-repeat: no-repeat;
+    background-position-x: 30%;
   }
   .diet__puppy {
     margin-right: 20%;
