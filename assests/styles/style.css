@@ -32,10 +32,10 @@
   .menu__btn {
     /*border: 3px solid red;*/
     position: fixed;
-    top: 2.2vh;
-    right: 164vw;
-    width: 7vw;
-    height: 7vh;
+    top: 1%;
+    right: 57%;
+    width: 3%;
+    height: 4%;
     cursor: pointer;
     z-index: 1;
   }
@@ -66,20 +66,13 @@
     top: 0;
     right: -100%;
     width: 100%;
-    height: 100%;
+    height: 90vh;
     margin: 0;
     padding: 1vh 0;
     list-style: none;
     background-color: #fffafa;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
     transition-duration: 0.25s;
-  }
-  .startage_img {
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
   .menu__logo {
     display: flex;
@@ -88,6 +81,7 @@
     justify-content: flex-start;
     margin-top: -1vh;
     margin-bottom: 2vh;
+    zoom:0.9;
   }
   .static {
     display: inline-block;
@@ -110,17 +104,17 @@
     padding-top: 0.5vh;
     padding-left: 4.5vw;
     margin-bottom: 0vh;
+    zoom:0.8;
   }
   .menu__item {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: -1.5vh;
-    margin-bottom: 7vh;
-    margin-left: -120vw;
-    padding-left: 0vw;
-    margin-right: 7vw;
-    padding-right: 35vw;
+    margin-top: -2.2%;
+    margin-bottom: 7%;
+    margin-left: -36%;
+    margin-right: 7%;
+    padding-right: 10%;
     color: rgb(11, 11, 11);
     font-family: "Montserrat", "Montserrat Regular", sans-serif;
     font-size: 1.7em;
@@ -151,9 +145,9 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 8vh;
-    margin-bottom: 5vh;
-    margin-left: 21vw;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
     background-color: rgba(150, 25, 20, 1);
     border-radius: 10px;
     color: #ffffff;
@@ -176,7 +170,8 @@
     flex-direction: row;
     width: 100vw;
     height: 100vh;
-    background-image: url(./img/DogMobile.jpg);
+    background-image: url("../img/DogMobile.jpg");
+    /*url("../images/decoration/team-decoration.svg")*/
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -188,80 +183,96 @@
     display: flex;
     color: #ffffff;
     flex-direction: row;
-    margin-top: -21vh;
-    margin-left: -92vw;
-    padding-right: 175vw;
-    padding-top: 12vh;
-    padding-bottom: 0vh;
+    margin-top: 8%;
+    margin-left: 5%;
+    padding-right: 20%;
+    padding-top: 0%;
+    padding-bottom: 19%;
     justify-content: flex-start;
     align-items: center;
     font-size: 2.55em;
     font-family: "Oswald", sans-serif, bold;
     letter-spacing: 0.02rem;
     line-height: 130%;
-  }
-  .startPage__texts_titleDesktop {
-    display: none;
-  }
+}
   .startPage__texts_ellipse {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-right: 70vw;
-    margin-left: -256vw;
-    margin-top: -12vh;
+    /* display: flex; */
+    /* justify-content: flex-start; */
+    /* align-items: center; */
+    /* margin-right: 0%; */
+    /* margin-left: 0%; */
+    /* margin-top: -20%; */
+    position: absolute;
+    top: 39.5%;
+    right: 100%;
+    left: 5%;
     transform: matrix(1, -0.09, 0.14, 1, 0, 0);
-  }
-  .startPage__texts_description {
-    display: flex;
-    color: #ffffff;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    margin-left: -111vw;
-    margin-top: 26vh;
-    padding-top: 11vh;
-    padding-right: 30vw;
-    padding-left: 0vw;
-    padding-bottom: 3vh;
-    font-family: "Montserrat", sans-serif;
-    font-weight: lighter;
-    font-size: 1.1em;
-    letter-spacing: 0.01rem;
-    line-height: 130%;
-  }
-  .startPage__button_choose-diet {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: flex-start;
-    margin-top: 79vh;
-    padding-top: 0vh;
-    margin-left: -93vw;
-    background-color: rgba(150, 25, 20, 1);
-    border-radius: 10px;
-    color: #ffffff;
-    font-family: "Montserrat", "Montserrat bold", sans-serif;
-    font-weight: bold;
-    font-size: 1em;
-    width: 55vw;
-    height: 6vh;
-  }
-  .startPage__button_choose-diet-name {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-left: 8vw;
-    margin-bottom: 2vh;
-  }
+}
+.startPage__description {
+  display: flex;
+  color: #ffffff;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 50%;
+  margin-left: -69%;
+  /* margin-right: 0%; */
+  /* padding-top: 19%; */
+  padding-right: 48%;
+  /* padding-left: 0%; */
+  padding-bottom: 10%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
+  font-size: 1.1rem;
+  letter-spacing: 0.01rem;
+  line-height: 135%;
+}
+.startPage__button_choose-diet {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 275%;
+  margin-left: -273%;
+  background-color: rgba(150, 25, 20, 1);
+  border-radius: 10px;
+  /* color: #ffffff; */
+  /* text-align: center; */
+  font-family: "Montserrat", "Montserrat bold", sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 55vw;
+  height: 6vh;
+}
+.startPage__button_choose-diet-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* margin-left: 14%; */
+  /* margin-bottom: 6%; */
+}
   .startPage__ZOOOV {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
-    margin-top: 73vh;
-    margin-left: -28vw;
+    margin-top: 85%;
+    margin-left: -140%;
+    /*border: 2px solid red;*/
+  }
+  .menu__item:hover {
+    color: rgba(117, 17, 13, 1);
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .menu__item_button-choose-diet:hover,
+  .startPage__button_choose-diet:hover,
+  .startPage__buton:hover{
+    background-color: rgba(117, 17, 13, 1);
+    cursor: pointer;
   }
   /* Лиза — начало кода CSS*/
   .about {
@@ -327,7 +338,7 @@
     height: 65vh;
     background: #ead1d0;
 
-    background-image: url(/assests/img/about_wave.svg);
+    background-image: url("/assests/img/about_wave.svg");
     background-repeat: no-repeat;
     background-position-x: 30%;
   }
@@ -435,11 +446,11 @@
     color: #9f9e9d;
   }
   .rations__button {
-    width: 40%;
-    height: 3rem;
+    justify-content: center;
+    width: 45%;
+    height: 3.2em;
     margin-top: 2%;
-    padding: 1% 4%;
-    border: 1px solid #961914;
+    border: 1.6px solid #961914;
     border-radius: 0.5rem;
     background-color: white;
     font-family: "Montserrat";
