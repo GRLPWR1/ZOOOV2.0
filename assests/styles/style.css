@@ -448,11 +448,11 @@
     color: #9f9e9d;
   }
   .rations__button {
-    width: 40%;
-    height: 3rem;
+    justify-content: center;
+    width: 45%;
+    height: 3.2em;
     margin-top: 2%;
-    padding: 1% 4%;
-    border: 1px solid #961914;
+    border: 1.6px solid #961914;
     border-radius: 0.5rem;
     background-color: white;
     font-family: "Montserrat";
