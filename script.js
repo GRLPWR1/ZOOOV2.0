@@ -11,5 +11,17 @@
 		
 		//анимируем переход на расстояние - top за 1500 мс
 		$('body,html').animate({scrollTop: top}, 1500);
+
+		//пытаемся закрыть бургерное меню
+		//$('menu__box,html').removeClass('active');
 	});
+	//menu.addEventListener('click', (e) => {
+        //if (e.target.tagName === 'A') {
+         // toggler.classList.remove('active');
+          //menu.classList.remove('active');
+        //}
+      //});
+	//$("#menu").on("click","a", function (){ 
+		//});ml
 });
+

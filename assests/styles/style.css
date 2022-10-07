@@ -68,21 +68,13 @@
     top: 0;
     right: -100%;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     margin: 0;
     padding: 1vh 0;
     list-style: none;
     background-color: #fffafa;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
     transition-duration: 0.25s;
-  }
-  .startPage_img {
-    display: none;
-   /* display: flex;
-    width: 100vw;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;*/
   }
   .menu__logo {
     display: flex;
@@ -113,6 +105,7 @@
     padding-top: 0.5vh;
     padding-left: 4.5vw;
     margin-bottom: 0vh;
+    zoom:0.8;
   }
   .menu__item {
     display: flex;
@@ -120,7 +113,7 @@
     justify-content: center;
     margin-top: -2.2%;
     margin-bottom: 7%;
-    margin-left: -35%;
+    margin-left: -36%;
     margin-right: 7%;
     padding-right: 10%;
     color: rgb(11, 11, 11);
@@ -192,7 +185,7 @@
     color: #ffffff;
     flex-direction: row;
     margin-top: 8%;
-    margin-left: 7%;
+    margin-left: 5%;
     padding-right: 20%;
     padding-top: 0%;
     padding-bottom: 19%;
@@ -202,70 +195,71 @@
     font-family: "Oswald", sans-serif, bold;
     letter-spacing: 0.02rem;
     line-height: 130%;
-  }
-  .startPage__texts_titleDesktop {
-    display: none;
-  }
+}
   .startPage__texts_ellipse {
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      margin-right: 66%;
-      margin-left: -101%;
-      margin-top: -15%;
-      transform: matrix(1, -0.09, 0.14, 1, 0, 0);
-  }
-  .startPage__texts_description {
-    display: flex;
-    color: #ffffff;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    margin-top:50%;
-    margin-left: -80%;
-    padding-top: 19%;
-    padding-right: 58%;
-    padding-left: 10%;
-    padding-bottom: 29%;
-    font-family: "Montserrat", sans-serif;
-    font-weight: lighter;
-    font-size: 1.1rem;
-    letter-spacing: 0.01rem;
-    line-height: 130%;
-   /* border: 2px solid red;*/
-  }
-  .startPage__button_choose-diet {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: flex-start;
-    margin-top: 270%;
-    margin-left: -269%;
-    background-color: rgba(150, 25, 20, 1);
-    border-radius: 10px;
-    color: #ffffff;
-    text-align: center;
-    font-family: "Montserrat", "Montserrat bold", sans-serif;
-    font-weight: bold;
-    font-size: 1rem;
-    width: 55vw;
-    height: 6vh;
-  }
-  .startPage__button_choose-diet-name {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-left: 14%;
-    margin-bottom: 6%;
-  }
+    /* display: flex; */
+    /* justify-content: flex-start; */
+    /* align-items: center; */
+    /* margin-right: 0%; */
+    /* margin-left: 0%; */
+    /* margin-top: -20%; */
+    position: absolute;
+    top: 39.5%;
+    right: 100%;
+    left: 5%;
+    transform: matrix(1, -0.09, 0.14, 1, 0, 0);
+}
+.startPage__description {
+  display: flex;
+  color: #ffffff;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 50%;
+  margin-left: -69%;
+  /* margin-right: 0%; */
+  /* padding-top: 19%; */
+  padding-right: 48%;
+  /* padding-left: 0%; */
+  padding-bottom: 10%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
+  font-size: 1.1rem;
+  letter-spacing: 0.01rem;
+  line-height: 135%;
+}
+.startPage__button_choose-diet {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 275%;
+  margin-left: -273%;
+  background-color: rgba(150, 25, 20, 1);
+  border-radius: 10px;
+  /* color: #ffffff; */
+  /* text-align: center; */
+  font-family: "Montserrat", "Montserrat bold", sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 55vw;
+  height: 6vh;
+}
+.startPage__button_choose-diet-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* margin-left: 14%; */
+  /* margin-bottom: 6%; */
+}
   .startPage__ZOOOV {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
-    margin-top: 90%;
+    margin-top: 85%;
     margin-left: -140%;
     /*border: 2px solid red;*/
   }
