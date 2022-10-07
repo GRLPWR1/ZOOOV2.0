@@ -23,11 +23,11 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="shortcut icon" href="./assests/img/dog-nose-icon.png">
     <link
       href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&display=swap"
@@ -644,18 +644,14 @@
       </main>
       <!-- - - - - - - - - - - САША- - - - - - - - - -  -->
       <footer class="footer">
-        <h5 class="footer__headline">Контакты</h5>
+        <h5 class="footer__headline" id="contacts">Контакты</h5>
         <p>Вы всегда можете с нами связаться по телефону или в мессенджерах</p>
         <p class="footer__phone-number">+7 (900)000-00-00</p>
-        <a class="footer__button" href="https://web.whatsapp.com/"
-          >Написать в Whatsapp</a
-        >
-        <a class="footer__button" href="https://web.telegram.org/"
-          >Написать в Telegram</a
-        >
+        <a class="footer__button" id="whatsapp-btn" href="https://web.whatsapp.com/">Написать в Whatsapp</a>
+        <a class="footer__button" id="telegram-btn" href="https://web.telegram.org/">Написать в Telegram</a>
         <p>
           Подписывайтесь на наш
-          <a href="https://instagram.com/">Instagram </a>
+          <a class="footer__link" href="https://instagram.com/">Instagram </a>
           и следите за новостями
         </p>
         <form action="#">
@@ -663,31 +659,37 @@
           <p class="footer__form__text">
             Напишите нам, и мы обязательно подробно на них ответим.
           </p>
-          <input type="text" id="name" placeholder="Имя" />
-          <br />
-          <input type="email" id="email" placeholder="Email" />
-          <br />
-          <textarea name="question" id="question" cols="30" rows="10">
-Ваш вопрос...</textarea
-          >
-          <br />
-          <input type="checkbox" id="checkbox" />
-          <label for="checkbox"
-            >Даю согласие на обработку персональных данных</label
-          >
-          <br />
-          <button>Отправить</button>
+          <input class="footer__form__input" type="text" id="name" placeholder="Имя"/>
+          <br/>
+          <input class="footer__form__input" type="email" id="email" placeholder="Email"/>
+          <br/>
+          <textarea class="footer__form__input" name="question" id="question" cols="30" rows="10">Ваш вопрос...</textarea>
+          <br/>
+          <input type="checkbox" id="checkbox"/>
+          <label for="checkbox">Даю согласие на обработку персональных данных</label>
+          <br/>
+          <button class="footer__button__send">Отправить</button>
         </form>
         <div>
-          <p>
+          <ul>
             Проект подготовлен студентками
-            <a href="https://itgirlschool.com/">ITGIRLSCHOOL:</a>
-          </p>
-          <a href="#">Александра Суровцева</a>
-          <a href="#">Алёна Галяшкина</a>
-          <a href="#">Анна Ли</a>
-          <a href="#">Кэтрин Вилински-Мазур </a>
-          <a href="#">Елизавета Есауленко </a>
+            <a class="footer__link" href="https://itgirlschool.com/">ITGIRLSCHOOL:</a>
+            <li>
+              <a class="footer__link" href="https://github.com/KatVil">Кэтрин Вилински-Мазур</a>
+            </li>
+            <li>
+              <a class="footer__link" href="https://github.com/LimpLizket">Елизавета Есауленко</a>
+            </li>
+            <li>
+              <a class="footer__link" href="https://github.com/Sevillee">Анна Ли</a>
+            </li>
+            <li>
+              <a class="footer__link" href="https://github.com/Galenaru">Алёна Галяшкина</a>
+            </li>
+            <li>
+              <a class="footer__link" href="https://github.com/GRLPWR1">Александра Суровцева</a>
+            </li>
+        </ul>
         </div>
       </footer>
     </div>

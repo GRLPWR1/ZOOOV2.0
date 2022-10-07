@@ -912,418 +912,96 @@
     font-size: 2rem;
     font-weight: 700;
     letter-spacing: 0.02em;
-    margin: 15% 0 0 5%;
+    margin: 15% 0 0 10%;
   }
-  .footer p {
+  .footer__link:hover {
+    text-shadow: 2px 2px 2px rgba(206,89,55,0);
+    text-decoration: underline;
+  }
+  .footer > p {
     font-family: "Montserrat";
     font-size: 1.1rem;
-    margin: 5% 5% 0 5%;
+    margin: 5% 10% 0 10%;
+  }
+  .footer__phone-number {
+    font-weight: 700;
   }
   .footer__button {
-    /* flex: 0 1 80%; */
-    border: 2px solid #ffffff;
-    margin: 5% 5% 0 5%;
+    margin: 5% 10% 0 10%;
     padding: 5%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 5% 50%;
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 1.1rem;
+  }
+  #whatsapp-btn {
+    background-image: url(../img/whatsapp-logo.png);
+    background-color: #9b2420;
+  }
+  #telegram-btn {
+    background-image: url(../img/telegram-logo.png);
+    background-color: #9b2420;
+  }
+  #whatsapp-btn:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  }
+  #telegram-btn:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   }
   .footer form {
-    margin-right: 5%;
-    padding: 5%;
+    padding: 0 5% 0 5%;
   }
   .footer__form__headline {
     font-family: "Montserrat";
-    font-size: 1.7rem;
+    font-size: 1.3rem;
+    margin-left: 5%;
+  }
+  .footer__form__text{
+    font-family: "Montserrat";
+    font-size: 1rem;
+    margin-left: 5%;
+  }
+  .footer__form__input {
+    width: 85%;
+    margin: 3%;
+    padding: 3%;
+    background-color: #9b2420;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-size: 0.8rem;
+  }
+  ::placeholder {
+    color: #ffffff;
+  }
+  .footer__button__send {
+    background-color: #FFF4F3;
+    color: #EC7973;
+    border: none;
+    width: 90%;
+    height: 10%;
+    justify-content: center;
+    margin: 5% 5% 20% 5%;
+    font-family: "Montserrat";
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  .footer__button__send:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  }
+  #checkbox {
+    margin-left: 3%;
+  }
+  .footer label {
+    font-family: "Montserrat";
+    font-size: 0.7rem;
   }
   .footer > div {
+    font-family: "Montserrat";
+    font-size: 0.8rem;
+    line-height: 2rem;
     background-color: #69120e;
   }
 }
-/* КЭТ КЭТ КЭТ КЭТ КЭТ КЭТ КЭТ
-@media screen and (min-width: 250px) and (max-width: 480px) {
-  a {
-    color: #ffffff;
-    text-decoration: none;
-  }
-
-  #menu__toggle {
-    opacity: 0;
-  }
-
-  #menu__toggle:checked + .menu__btn > span {
-    transform: rotate(45deg);
-  }
-
-  #menu__toggle:checked + .menu__btn > span::before {
-    top: 0;
-    transform: rotate(0deg);
-  }
-
-  #menu__toggle:checked + .menu__btn > span::after {
-    top: 0;
-    transform: rotate(90deg);
-  }
-
-  #menu__toggle:checked ~ .menu__box {
-    right: 0 !important;
-  }
-
-  .menu__btn {
-    /*border: 3px solid red;*/
-    /* position: fixed;
-    top: 2.2vh;
-    right: 164vw;
-    width: 7vw;
-    height: 7vh;
-    cursor: pointer;
-    z-index: 1;
-  }
-
-  .menu__btn > span,
-  .menu__btn > span::before,
-  .menu__btn > span::after {
-    display: block;
-    position: absolute;
-    width: 100%;
-    /*height: 2px;*/
-    /* height: 0.22vh;
-    background-color: #989595;
-    transition-duration: 0.25s;
-  }
-
-  .menu__btn > span::before {
-    content: "";
-    /* top: -8px;*/
-    /* top: -1vh;
-  }
-
-  .menu__btn > span::after {
-    content: "";
-    /*top: 8px;*/
-    /* top: 1vh;
-  } */ */ */
-
-  /* .menu__box {
-    display: block;
-    position: fixed;
-    top: 0;
-    right: -100%;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 1vh 0;
-    list-style: none;
-    background-color: #fffafa;
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
-    transition-duration: 0.25s;
-  }
-  .startage_img {
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .menu__logo {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    margin-top: -1vh;
-    margin-bottom: 2vh;
-  }
-
-  .static {
-    display: inline-block;
-    width: 100vw;
-    z-index: 2;
-    height: 6vh;
-    position: fixed;
-  }
-
-  .static__header {
-    display: inline-block;
-    position: fixed;
-    height: 6vh;
-  }
-
-  .static__header_logo {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    margin-top: 0vh;
-    padding-top: 0.5vh;
-    padding-left: 4.5vw;
-    margin-bottom: 0vh;
-  }
-
-  .menu__item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: -1.5vh;
-    margin-bottom: 7vh;
-    margin-left: -120vw;
-    padding-left: 0vw;
-    margin-right: 7vw;
-    padding-right: 35vw;
-    color: rgb(11, 11, 11);
-    font-family: "Montserrat", "Montserrat Regular", sans-serif;
-    font-size: 1.7em;
-    font-weight: 600;
-    text-decoration: none;
-    text-align: center;
-    transition-duration: 0.25s;
-  }
-
-  .menu__curve_left {
-    display: none;
-    opacity: 50%;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-top: -120vh;
-  }
-
-  .menu__curve_right {
-    display: none;
-    opacity: 50%;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start;
-    margin-top: 15vh;
-    margin-left: 20vw;
-  }
-
-  .menu__item_button-choose-diet {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-top: 8vh;
-    margin-bottom: 5vh;
-    margin-left: 21vw;
-    background-color: rgba(150, 25, 20, 1);
-    border-radius: 10px;
-    color: #ffffff;
-    font-family: "Montserrat", "Montserrat Regular", sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1.2em;
-    width: 60vw;
-    height: 6.5vh;
-  }
-
-  .menu__item_button-choose-diet-name {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-left: 0vw;
-  }
-
-  .startPage {
-    display: flex;
-    flex-direction: row;
-    width: 100vw;
-    height: 100vh;
-    background-image: url(./img/DogMobile.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .startPage__texts {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .startPage__texts_titleMobile {
-    display: flex;
-    color: #ffffff;
-    flex-direction: row;
-    margin-top: -21vh;
-    margin-left: -92vw;
-    padding-right: 175vw;
-    padding-top: 12vh;
-    padding-bottom: 0vh;
-    justify-content: flex-start;
-    align-items: center;
-    font-size: 2.55em;
-    font-family: "Oswald", sans-serif, bold;
-    letter-spacing: 0.02rem;
-    line-height: 130%;
-  }
-
-  .startPage__texts_titleDesktop {
-    display: none;
-  }
-
-  .startPage__texts_ellipse {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-right: 70vw;
-    margin-left: -256vw;
-    margin-top: -12vh;
-    transform: matrix(1, -0.09, 0.14, 1, 0, 0);
-  }
-
-  .startPage__texts_description {
-    display: flex;
-    color: #ffffff;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    margin-left: -111vw;
-    margin-top: 26vh;
-    padding-top: 11vh;
-    padding-right: 30vw;
-    padding-left: 0vw;
-    padding-bottom: 3vh;
-    font-family: "Montserrat", sans-serif;
-    font-weight: lighter;
-    font-size: 1.1em;
-    letter-spacing: 0.01rem;
-    line-height: 130%;
-  }
-
-  .startPage__button_choose-diet {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: flex-start;
-    margin-top: 79vh;
-    padding-top: 0vh;
-    margin-left: -93vw;
-    background-color: rgba(150, 25, 20, 1);
-    border-radius: 10px;
-    color: #ffffff;
-    font-family: "Montserrat", "Montserrat bold", sans-serif;
-    font-weight: bold;
-    font-size: 1em;
-    width: 55vw;
-    height: 6vh;
-  }
-
-  .startPage__button_choose-diet-name {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-left: 8vw;
-    margin-bottom: 2vh;
-  }
-
-  .startPage__ZOOOV {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: center;
-    margin-top: 73vh;
-    margin-left: -28vw;
-  }
-
-  /* АННА АННА АННА АННА АННА АННА АННА*/
-  /* .whyZOOOV {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .whyZOOOV h2 {
-    position: relative;
-    margin-top: 15vh;
-    left: 7.2vw;
-    font-family: "Oswald";
-    font-style: normal;
-    font-weight: 900;
-    font-size: 2.5rem;
-    line-height: 130%;
-  }
-
-  .whyZOOOV div {
-    position: relative;
-    margin: 0px 20px 46px 24px;
-    font-family: "Montserrat";
-    font-style: normal;
-    color: #000000;
-  }
-
-  .whyZOOOV img {
-    margin-bottom: 1.73vh;
-  }
-
-  .whyZOOOV h3 {
-    margin-bottom: 1vh;
-    font-weight: 600;
-    font-size: 1.12rem;
-  }
-
-  .p {
-    margin-bottom: 8vh;
-  } */
-
-  /* .LoveAndCare {
-    display: flex;
-    flex-direction: column;
-    height: 235vh;
-    left: 7.2vw;
-    background: #fff4f3;
-  }
-
-  .LoveAndCare h2 {
-    position: relative;
-    top: 4vh; */
-    /* width: 25.56vw; */
-    /* left: 7.2vw;
-    font-family: "Oswald";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 2.5rem;
-    line-height: 130%;
-    letter-spacing: 0.02em;
-    color: #000000;
-  } */
-
-  /* .text {
-    position: relative;
-    top: 1vh;
-    width: 88vw;
-    left: 7.2vw;
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 130%;
-    color: #434242;
-  }
-
-  .pictures {
-    display: flex;
-    margin-top: 10vh;
-    left: 7.2vw;
-  }
-
-  .img_L1 {
-    position: relative;
-    left: 7.2vw;
-  }
-
-  .img_L2 {
-    position: relative;
-    top: 34.7vh;
-    left: -20vw;
-    width: 55vw;
-    height: 37.6vh;
-  }
-
-  .img_L3 {
-    position: relative;
-    top: 7.8vh;
-    left: -45vw;
-  }
-
-  .img_L4 {
-    position: relative;
-    top: 22vh;
-    left: -130vw;
-  } 
-}*/
