@@ -557,6 +557,7 @@
     width: 100vw;
     height: auto;
     padding: 4em 0em 0em 0em;
+    margin-top: 5vh;
     background-color: #ffffff;
   }
   .aboutDelivery__title {
@@ -629,6 +630,7 @@
   .FAQ {
     display: flex;
     flex-direction: column;
+    margin-top: 5vh;
   }
   .FAQ__title {
     height: 2.5em;
@@ -674,19 +676,19 @@
   }
   summary:after {
     display: flex;
-    justify-content: space-between;
-    content: "+";
-    transition: transform 0.5s;
-    color: rgba(150, 25, 20, 1);
+    align-items: center;
+    padding-left: 2.5em;
+    content: url("../img/FAQ/plusred.png");
   }
   details[open] > summary:after {
-    content: "–";
+    content: url("../img/FAQ/minusred.png");
   }
   summary ~ * {
     padding: 0em 1em 0 1em;
   }
 
   .FAQ__answer {
+    margin: 0.1em;
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
