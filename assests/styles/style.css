@@ -14,18 +14,6 @@
   font-weight: bold;
   font-size: 1rem;
 }
- /* .container { 
-    display: flex;
-    align-content: flex-start;
-    flex-direction: column;
-    width: 100vw;
-    height: 100vh;    
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-
-*/
 }
 @media (min-width: 250px) and (max-width: 330px) {
   .container {
