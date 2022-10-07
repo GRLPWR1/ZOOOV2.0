@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link 
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&display=swap"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="shortcut icon" href="./assests/img/dog-nose-icon.png">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&display=swap"
+    />
+    <link rel="stylesheet" href="./assests/styles/style.css" />
+    <script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+    <script src="./script.js" async></script>
+    <script src="./script_menu.js" async></script>
+    <title>ZOOOV</title>
+  </head>
+  <body>
+    <div class="container">
+      <!--=^-.-^=---------------КЭТ----------------=^-.-^=-->
+      <header class="static">
+        <div class="static__header">
+          <div class="static__header_logo">
+            <img src="./assests/img/icon.svg" alt="ZOOOV dog logo">
+          </div>
+          <div class="hamburger-menu" id="menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+              <span></span>
+            </label>
+            <ul class="menu__box">
+              <li class="menu__logo">
+                <img src="./assests/img/icon.svg" alt="ZOOOV dog logo">
+              </li>
+              <li><a class="menu__item" href="#BARF">BARF</a></li>
+              <li><a class="menu__item" href="#rations">Рационы</a></li>
+              <li><a class="menu__item" href="#ZOOOV">ZOOOV</a></li>
+              <li><a class="menu__item" href="#WhyZOOOV">О нас</a></li>
+              <li><a class="menu__item" href="#delivery">Доставка</a></li>
+              <li><a class="menu__item" href="#FAQ">FAQ</a></li>
+              <li><a class="menu__item" href="#contacts">Контакты</a></li>
+              <li class="menu__item_button-choose-diet">
+                <a class="menu__item_button-choose-diet-name" href="#rations">Выбрать рацион</a>
+              </li>
+            </ul>
+            <div class="menu__curve_left">
+              <svg
+                width="158"
+                height="412"
+                viewBox="0 0 188 442"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_191_1266)">
+                  <path
+                    d="M111.559 300.247C105.877 302.331 100.476 305.028 95.3683 308.227C94.6193 308.719 95.508 309.779 96.2569 309.288C101.248 306.134 106.585 303.515 112.15 301.477C112.993 301.19 112.404 299.933 111.559 300.247Z"
+                    fill="#EAD1D0"
+                  />
+                  <path
+                    d="M123.471 311.021C121.714 317.297 119.406 323.44 116.614 329.342C116.258 330.149 117.566 330.633 117.949 329.828C120.742 323.926 123.022 317.781 124.806 311.507C125.027 310.631 123.72 310.148 123.471 311.021Z"
+                    fill="#EAD1D0"
+                  />
+                  <path
+                    d="M108.852 283.962C102.735 282.172 96.6472 280.383 90.531 278.592C89.6804 278.347 89.1676 279.643 90.0461 279.892C96.1623 281.682 102.251 283.471 108.367 285.261C109.215 285.535 109.728 284.238 108.852 283.962Z"
+                    fill="#EAD1D0"
+                  />
+                </g>
+                <g clip-path="url(#clip1_191_1266)">
+                  <path
+                    d="M286.73 -12.4605C259.016 -11.4256 231.87 -2.96435 207.988 10.9748C183.644 25.172 162.319 45.2699 147.604 69.3916C139.966 81.9236 134.053 95.9922 133.258 110.786C132.456 125.689 136.892 140.457 143.11 153.877C149.43 167.565 157.983 180.665 169.052 190.997C179.133 200.427 192.073 207.692 206.15 207.987C227.948 208.435 251.653 187.556 243.986 164.559C241.854 158.191 237.724 152.702 232.953 148.058C227.784 143.036 221.672 138.706 215.013 135.9C202.222 130.497 188.485 132.36 176.428 138.729C151.222 152.007 134.831 179.343 128.302 206.364C121.495 234.505 125.299 264.152 136.749 290.588C147.677 315.905 165.214 338.326 187.308 354.888C208.653 370.883 234.413 381.405 261.17 382.838C267.641 383.182 274.188 382.976 280.622 382.266C281.58 382.156 281.393 380.647 280.417 380.781C254.408 383.679 228.22 377.432 205.398 364.841C182.388 352.147 163.027 333.285 149.168 311.029C134.564 287.6 125.737 260.113 126.433 232.357C127.114 204.019 137.82 175.451 157.711 154.988C166.897 145.531 178.52 137.426 191.666 134.887C206.141 132.1 219.711 138.132 230.373 147.699C239.948 156.29 247.067 168.873 242.657 181.913C239.077 192.504 229.612 200.572 219.284 204.26C191.853 214.102 166.729 190.299 153.186 169.082C145.103 156.415 138.623 142.036 135.928 127.18C133.297 112.64 135.533 98.2546 141.352 84.7612C146.919 71.7997 155.106 59.9494 164.28 49.3044C173.156 39.0032 183.239 29.7692 194.255 21.8128C215.97 6.11644 241.309 -4.77871 267.804 -9.01988C274.173 -10.0452 280.576 -10.6644 287.032 -10.9014C287.905 -10.9996 287.7 -12.4854 286.73 -12.4605Z"
+                    fill="#EAD1D0"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_191_1266">
+                    <rect
+                      x="123.045"
+                      y="330.77"
+                      width="38"
+                      height="49"
+                      rx="2"
+                      transform="rotate(-174.775 123.045 330.77)"
+                      fill="white"
+                    />
+                  </clipPath>
+                  <clipPath id="clip1_191_1266">
+                    <rect
+                      x="199.193"
+                      width="296"
+                      height="290"
+                      rx="2"
+                      transform="rotate(37.1708 199.193 0)"
+                      fill="white"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+            </div>
+            <div class="menu__curve_right">
+              <svg
+                width="69"
+                height="232"
+                viewBox="0 0 79 242"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15.9238 241.346C31.8085 234.163 45.6018 222.79 56.1973 209.003C67.0004 194.956 74.6478 178.189 77.4942 160.649C78.9694 151.538 79.076 141.941 76.0323 133.138C72.9665 124.27 66.8847 116.723 60.0848 110.385C53.1625 103.915 45.0796 98.317 36.1879 94.9286C28.086 91.8307 18.8332 90.6729 10.57 93.8431C-2.22262 98.7582 -11.0699 116.544 -1.15682 128.115C1.59344 131.318 5.29822 133.533 9.17557 135.105C13.3742 136.802 17.9576 137.872 22.4982 137.925C31.2235 138.034 38.7766 133.688 44.2838 127.116C55.8066 113.4 58.867 93.5896 56.2621 76.3047C53.5539 58.3017 44.313 41.9407 31.3832 29.2655C19.022 17.1175 3.50113 8.2252 -13.2829 3.82655C-29.4967 -0.419305 -46.9831 -0.43045 -62.8952 5.0885C-66.7431 6.42422 -70.5043 8.09871 -74.0806 10.0397C-74.6122 10.3312 -74.1458 11.1662 -73.6093 10.8563C-59.1592 2.99305 -42.4374 0.412826 -26.1704 2.32592C-9.76972 4.25511 5.96899 10.6418 19.3099 20.3109C33.363 30.4864 45.0153 44.397 51.1891 60.7251C57.5097 77.3884 58.0498 96.5658 51.3239 113.205C48.2188 120.893 43.3755 128.372 36.3263 132.972C28.5624 138.031 19.235 137.741 10.7624 134.701C3.15319 131.972 -3.97266 126.335 -4.49664 117.694C-4.9233 110.677 -1.32717 103.732 3.80939 99.1319C17.4418 86.888 37.7057 94.7831 50.6167 103.923C58.3231 109.38 65.5026 116.215 70.5926 124.225C75.5699 132.067 77.6786 140.975 77.4902 150.214C77.322 159.084 75.3662 167.928 72.5498 176.305C69.8257 184.411 66.1463 192.182 61.6211 199.431C52.7033 213.727 40.5381 226.088 26.1236 234.848C22.66 236.958 19.08 238.839 15.3789 240.509C14.894 240.774 15.3653 241.591 15.9238 241.346Z"
+                  fill="#EAD1D0"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="startPage"> 
+          <div class="startPage__texts">
+            <h1 class="startPage__texts_titleMobile">
+              Питание,которое <br />полюбит ваш питомец
+            </h1>
+            <div class="startPage__texts_ellipse">
+              <svg
+                width="171"
+                height="71"
+                viewBox="0 0 187 71"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M114.712 5.82295C63.0288 -4.88896 4.18332 12.673 2.74894 28.581C1.23076 45.4183 40.6177 62.7323 90.7221 67.253C140.827 71.7736 182.675 61.789 184.193 44.9517C185.636 28.9534 130.846 8.5865 81.3796 10.3357"
+                  stroke="#EC7973"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                />
+              </svg>
+              </div>          
+            <h2 class="startPage__description">
+              Натуральные рационы питания для собак по системе BARF
+            </h2>        
+          </div>
+          <div class="startPage__button" id="menu">
+            <div class="startPage__button_choose-diet" id="menu">
+              <a class="startPage__button_choose-diet-name" href="#rations">Выбрать рацион</a>
+            </div>
+          </div>
+          <div class="startPage__ZOOOV">
+            <img src="./assests/img/ZOOOV.svg" />
+          </div>
+        </section>
+        <!-- - - - - - - - - - - ЛИЗА- - - - - - - - - -  -->
+        <section class="about">
+          <p class="about__headline" id="BARF">Что такое BARF</p>
+          <p class="about__description">
+            BARF (Biologically Appropriate Raw Food) — система питания собак,
+            основанная на сырых натуральных продуктах. Такой рацион максимально
+            приближен к естественному пищевому поведению хищников, а значит
+            биологически правилен.
+          </p>
+          <p class="about__headlist">
+            После перехода на питание по системе BARF у собак:
+          </p>
+          <ul class="about__list">
+            <li class="list__point">
+              <span class="list__text">Нормализуется пищеварение</span>
+            </li>
+            <li class="list__point">
+              <span class="list__text">Проходят аллергические реакции</span>
+            </li>
+            <li class="list__point">
+              <span class="list__text"
+                >Прекращается образование зубного камня</span
+              >
+            </li>
+            <li class="list__point">
+              <span class="list__text">Появляется больше энергии</span>
+            </li>
+            <li class="list__point">
+              <span class="list__text"
+                >Увеличивается продолжительность жизни</span
+              >
+            </li>
+          </ul>
+          <img class="about__image" src="assests\img\about_dog.svg" alt="dog" />
+          <section class="about__diet">
+            <p class="diet__puppy">для щенков</p>
+            <ul class="diet__list">
+              <li class="diet__point diet__point_meat">Мясо – 58%</li>
+              <li class="diet__point diet__point_bones">Кости – 17%</li>
+              <li class="diet__point diet__point_vegs">Овощи – 7%</li>
+              <li class="diet__point diet__point_liver">Печень – 7%</li>
+              <li class="diet__point diet__point_subprod">Субпродукты – 7%</li>
+              <li class="diet__point diet__point_seeds">Семена/Орехи – 3%</li>
+              <li class="diet__point diet__point_fruits">Фрукты – 1%</li>
+            </ul>
+          </section>
+        </section>
+        <section class="rations">
+          <p class="rations__headline" id="rations">Рационы ZOOOV</p>
+          <img
+            class="rations__option"
+            src="assests\img\rations_4adultdog.svg"
+            alt="food"
+          />
+          <p class="rations__adultdog">Для взрослых собак</p>
+          <p class="rations__meat">Индейка/Говядина</p>
+          <p class="rations__discription">
+            Подходит для ежедневного кормления. Богат животными белками и
+            Омега-3.
+          </p>
+          <p class="rations__quantity">700г / 500г / 300г / 150г / 100г</p>
+          <a class="rations__button" href="#contacts"><p>Заказать</p></a></button>
+        </section>
+        <!-- - - - - - - - - - - АНЯ- - - - - - - - - -  -->
+        <section class="whyZOOOV">
+          <h2 class="whyZOOOV__heading" id="ZOOOV">Почему ZOOOV</h2>
+          <div class="whyZOOOV__block1">
+            <img
+              class="img1"
+              src="./assests/img/whyZoooV_Leaf.svg"
+              alt="Leaf"
+            />
+            <h3>Натурально</h3>
+            <p>Все продукты тщательно отбираем у проверенных поставщиков.</p>
+          </div>
+          <div class="whyZOOOV__block2">
+            <img
+              class="img2"
+              src="./assests/img/whyZoooV_Heartbeat.svg"
+              alt="Heartbeat"
+            />
+            <h3>Здорово</h3>
+            <p>Система питания, которая продлевает жизнь вашего питомца.</p>
+          </div>
+          <div class="whyZOOOV__block3">
+            <img
+              class="img3"
+              src="./assests/img/whyZoooV_RocketLaunch.svg"
+              alt="RocketLaunch"
+            />
+            <h3>Быстро</h3>
+            <p>
+              Сделайте заказ на сайте и с вами свяжется наш менеджер для
+              уточнения деталей.
+            </p>
+          </div>
+          <div class="whyZOOOV__block4">
+            <img
+              class="img4"
+              src="./assests/img/whyZoooV_Smile.svg"
+              alt="Smiley"
+            />
+            <h3>Удобно</h3>
+            <p>
+              Достаточно разморозить порцию ZOOOV, удалить отрывную крышку с
+              лотка и обед для вашего питомца готов.
+            </p>
+          </div>
+        </section>
+        <section class="LoveAndCare">
+          <h2 id="WhyZOOOV">С заботой и любовью от Zooov</h2>
+          <div class="text">
+            <p>
+              Мы сами владельцы собак и знаем, как важно правильное и
+              качественное питание для долгой и счастливой жизни вашего питомца.
+              Для нас ZOOOV это не просто бизнес, это наш вклад в повышение
+              качества жизни всех собак.
+            </p>
+            <p>
+              Мы знаем, как правильно подобрать и переработать мясо,
+              субпродукты, овощи и фрукты, чтобы питание вашего питомца было
+              максимально сбалансированным и полезным.
+            </p>
+            <p>
+              Обычного сырого мяса из магазина будет недостаточно для
+              полноценного питания собаки. ZOOOV — экономия времени, вам не
+              придется искать необходимые составляющие для рациона.
+            </p>
+            <p>
+              Мы сами отбираем мясо, кости, легкие, печень и другие говяжьи,
+              кроличьи и птичьи субпродукты у проверенных поставщиков. Закупаем
+              органические овощи и используем разнообразные масла, такие как
+              конопляное и льняное.
+            </p>
+            <p>
+              ZOOOV — это удобно, мы доставляем готовый рацион на две недели уже
+              смешанным, расфасованным и упакованным в порционные лотки,готовыми
+              к заморозке. За два часа до кормления достаточно переместить
+              контейнер из морозилки в холодильник для ПРАВИЛЬНОЙ разморозки.
+            </p>
+          </div>
+          <div class="pictures">
+            <img
+              class="img_L1"
+              src="./assests/img/Love&Care_img_L1.png"
+              alt="happydog"
+            />
+            <img
+              class="img_L2"
+              src="./assests/img/Love&Care_img_L2.png"
+              alt="smilydog"
+            />
+            <img
+              class="img_L3"
+              src="./assests/img/Love&Care_img_L3.svg"
+              alt="heart"
+            />
+            <img
+              class="img_L4"
+              src="./assests/img/Love&Care_img_L4.svg"
+              alt="doghead"
+            />
+          </div>
+        </section>
+        <!-- - - - - - - - - - - АЛЕНА- - - - - - - - - - -->
+        <section class="aboutDelivery">
+          <h2 class="aboutDelivery__title" id="delivery">Как получить ZOOOV?</h2>
+          <div class="aboutDelivery__row">
+            <img
+              class="aboutDelivery__row_arrow"
+              src="./assests/img/aboutDelivery/arrow.png"
+              alt="arrow"
+            />
+            <div class="aboutDelivery__column">
+              <section class="item-about">
+                <img
+                  class="item-about__icon"
+                  src="./assests/img/aboutDelivery/icon1.png"
+                  alt="package"
+                />
+                <h4 class="item-about__title">Закажите рацион</h4>
+                <p class="item-about__text">
+                  Выберите рацион для своей собаки. Если не знаете сколько и
+                  какой –
+                  <span class="item-about__text_red">мы подскажем.</span>
+                </p>
+              </section>
+              <section class="item-about">
+                <img
+                  class="item-about__icon"
+                  src="./assests/img/aboutDelivery/icon2.png"
+                  alt="phonecall"
+                />
+                <h4 class="item-about__title">Подтвердите заказ</h4>
+                <p class="item-about__text">
+                  Мы свяжемся с вами для подтверждения заказа и уточнения
+                  деталей.
+                </p>
+              </section>
+              <section class="item-about">
+                <img
+                  class="item-about__icon"
+                  src="./assests/img/aboutDelivery/icon3.png"
+                  alt="clock"
+                />
+                <h4 class="item-about__title">Ожидайте доставки</h4>
+                <p class="item-about__text">
+                  Привозим заказ на следующий день. По СПб – 350₽, при заказе от
+                  3 500₽ – бесплатно. Лен. область – по договоренности.
+                </p>
+              </section>
+              <section class="item-about">
+                <img
+                  class="item-about__icon"
+                  src="./assests/img/aboutDelivery/icon4.png"
+                  alt="heart"
+                />
+                <h4 class="item-about__title">Радуйте своего питомца</h4>
+                <p class="item-about__text" id="rations_freeze">
+                  Просто разморозьте рацион: при комнатной температуре – 3 часа,
+                  в холодильнике – 12-15 часов.
+                </p>
+              </section>
+            </div>
+          </div>
+        </section>
+        <section class="FAQ" id="FAQ">
+          <h2 class="FAQ__title">Частые вопросы</h2>
+          <details class="FAQ__question">
+            <summary class="FAQ__question_visible">
+              Не опасны ли бактерии, которые находятся в сыром мясе?
+            </summary>
+            <p class="FAQ__answer" >
+              У здоровых собак отличная иммунная система, готовая ко всем видам
+              бактерий. Рацион BARF как раз укрепит иммунитет вашей собаки и
+              защитит ее от влияния бактерий, которые находятся на улице или
+              даже в вашем доме.
+            </p>
+          </details>
+          <img
+            class="FAQ__line"
+            src="./assests/img/FAQ/linegrey.svg"
+            alt="line"
+          />
+          <details class="FAQ__question">
+            <summary class="FAQ__question_visible">
+              Надо ли давать дополнительно витамины к рациону BARF?
+            </summary>
+            <p class="FAQ__answer">
+              По мере необходимости в рацион собаки вводятся недостающие
+              витамины и прочие элементы — витамины С, Е, морская капуста (она
+              же — Келп), люцерна (она же Альфальфа), ферменты (в виде
+              натурального яблочного уксуса, например) и жирные кислоты Омега-3
+              и Омега-6 (в идеале — рыбий жир из лосося (обычный имеет другой
+              состав), но можно масло льняного семени или масло вечерней
+              примулы)
+            </p>
+          </details>
+          <img
+            class="FAQ__line"
+            src="./assests/img/FAQ/linegrey.svg"
+            alt="line"
+          />
+          <details class="FAQ__question">
+            <summary class="FAQ__question_visible">
+              А если моя собака уже давно питается промышленным кормом и у нее
+              нет проблем со здоровьем?
+            </summary>
+            <p class="FAQ__answer">
+              Вам нужно знать, что при кормлении промышленным кормом одни
+              заболевания могут оставаться незаметными долгое время (в
+              особенности патологии пищеварительного тракта), в то время как
+              другие из-за такого кормления возникнут. Таким образом, «здоровье»
+              при сухом рационе может быть обманчивым.
+            </p>
+          </details>
+          <img
+            class="FAQ__line"
+            src="./assests/img/FAQ/linegrey.svg"
+            alt="line"
+          />
+          <details class="FAQ__question">
+            <summary class="FAQ__question_visible">
+              Можно ли смешивать натуральный корм и корм промышленного
+              производства?
+            </summary>
+            <p class="FAQ__answer">
+              Специалисты не советуют смешивать натуральную пищу и готовый
+              промышленный корм. Дело в том, что при однотипном кормлении
+              пищеварение собаки полностью подстраивается под выбранный тип
+              корма. А когда вы эти типы смешиваете, у питомца могут возникнуть
+              нарушения в процессе усвоения пищи.
+            </p>
+          </details>
+          <img
+            class="FAQ__line"
+            src="./assests/img/FAQ/linegrey.svg"
+            alt="line"
+          />
+          <details class="FAQ__question">
+            <summary class="FAQ__question_visible">
+              Могу ли я сам составить для своей собаки рацион по системе BARF?
+            </summary>
+            <p class="FAQ__answer">
+              Да, конечно. Но зачем тратить много времени на расчет суточной
+              нормы кормления и составления меню, если мы предлагаем Вам готовое
+              решение-рацион ZOOOV!
+            </p>
+          </details>
+          <img
+            class="FAQ__line"
+            src="./assests/img/FAQ/linegrey.svg"
+            alt="line"
+          />
+          <details class="FAQ__question">
+            <summary class="FAQ__question_visible">
+              Присутствует ли в ZOOOV рационах рыба?
+            </summary>
+            <p class="FAQ__answer">
+              Этот полезный продукт представлен в рационе, чтобы питание было
+              сбалансированным и разнообразным. Он богат незаменимыми
+              аминокислотами, микро- и макроэлементами, витаминами, минералами.
+            </p>
+          </details>
+          <img
+            class="FAQ__line"
+            src="./assests/img/FAQ/linegrey.svg"
+            alt="line"
+          />
+          <details class="FAQ__question">
+            <summary class="FAQ__question_visible">
+              Как перевести питомца на натуральное питание?
+            </summary>
+            <p class="FAQ__answer">
+              Если питомец и так питается натуралкой, по системе БАРФ тогда
+              просто нужно вводить сырые необработанные продукты. Размер порций
+              приготовленной еды при этом сокращается и примерно за 2-4 дня
+              можно просто перейти к выбранному меню. Если же до этого собака
+              питалась только промышленными кормами, то процесс перехода на
+              систему BARF должен длится намного дольше, не менее 10-15 дней.
+            </p>
+          </details>
+          <img
+            class="FAQ__line"
+            src="./assests/img/FAQ/linegrey.svg"
+            alt="line"
+          />
+          <details class="FAQ__question">
+            <summary class="FAQ__question_visible">
+              Как готовить рацион ZOOOV?
+            </summary>
+            <p class="FAQ__answer">
+              Рацион ZOOOV не нужно готовить. Их не следует разогревать в
+              микроволновке или подвергать термической обработке. Наша продукция
+              продается и хранится в замороженном виде. Перед тем как дать ее
+              питомцу дайте продукту просто разморозиться.
+            </p>
+          </details>
+          <img
+            class="FAQ__line"
+            src="./assests/img/FAQ/linegrey.svg"
+            alt="line"
+          />
+          <details class="FAQ__question">
+            <summary class="FAQ__question_visible">
+              При переходе на рацион ZOOOV у собаки начались проблемы с ЖКТ. Это
+              нормально?
+            </summary>
+            <p class="FAQ__answer">
+              Да, при переводе взрослой собаки на натуральное сырое питание
+              бывает более или менее продолжительный период детоксикации и
+              перестройки пищеварительной системы. Могут временно проявиться
+              разные болячки — кожные, кишечные и другие. Но при правильном и
+              терпеливом отношении через 2-3 недели все нормализуется, собака
+              буквально расцветет. Главное — следовать рекомендациям и не
+              метаться от одного питания к другому.
+            </p>
+          </details>
+        </section>
+      </main>
+      <!-- - - - - - - - - - - САША- - - - - - - - - -  -->
+      <footer class="footer">
+        <h5 class="footer__headline" id="contacts">Контакты</h5>
+        <p>Вы всегда можете с нами связаться по телефону или в мессенджерах</p>
+        <p class="footer__phone-number">+7 (900)000-00-00</p>
+        <a class="footer__button" id="whatsapp-btn" href="https://web.whatsapp.com/">Написать в Whatsapp</a>
+        <a class="footer__button" id="telegram-btn" href="https://web.telegram.org/">Написать в Telegram</a>
+        <p>
+          Подписывайтесь на наш
+          <a class="footer__link" href="https://instagram.com/">Instagram </a>
+          и следите за новостями
+        </p>
+        <form action="#">
+          <h5 class="footer__form__headline">Остались вопросы?</h5>
+          <p class="footer__form__text">
+            Напишите нам, и мы обязательно подробно на них ответим.
+          </p>
+          <input class="footer__form__input" type="text" id="name" placeholder="Имя"/>
+          <br/>
+          <input class="footer__form__input" type="email" id="email" placeholder="Email"/>
+          <br/>
+          <textarea class="footer__form__input" name="question" id="question" cols="30" rows="10">Ваш вопрос...</textarea>
+          <br/>
+          <input type="checkbox" id="checkbox"/>
+          <label for="checkbox">Даю согласие на обработку персональных данных</label>
+          <br/>
+          <button class="footer__button__send">Отправить</button>
+        </form>
+        <div>
+          <ul>
+            Проект подготовлен студентками
+            <a class="footer__link" href="https://itgirlschool.com/">ITGIRLSCHOOL:</a>
+            <li>
+              <a class="footer__link" href="https://github.com/KatVil">Кэтрин Вилински-Мазур</a>
+            </li>
+            <li>
+              <a class="footer__link" href="https://github.com/LimpLizket">Елизавета Есауленко</a>
+            </li>
+            <li>
+              <a class="footer__link" href="https://github.com/Sevillee">Анна Ли</a>
+            </li>
+            <li>
+              <a class="footer__link" href="https://github.com/Galenaru">Алёна Галяшкина</a>
+            </li>
+            <li>
+              <a class="footer__link" href="https://github.com/GRLPWR1">Александра Суровцева</a>
+            </li>
+        </ul>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
