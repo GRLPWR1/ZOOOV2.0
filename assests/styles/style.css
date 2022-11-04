@@ -1,4 +1,4 @@
-/* - МОБИЛЬНАЯ ВЕРСИЯ - */
+/* ERROR MESSAGE */
 @media (max-width: 249px) or (min-width: 481px) {
   main,
   header,
@@ -16,6 +16,7 @@
   font-weight: bold;
   font-size: 1rem;
 }
+/* - МОБИЛЬНАЯ ВЕРСИЯ - */
 }
 @media (min-width: 250px) and (max-width: 330px) {
   .container {
@@ -51,7 +52,6 @@
     right: 0 !important;
   }
   .menu__btn {
-    /* border: 3px solid red; */
     position: fixed;
     top: 1%;
     right: 50%;
@@ -66,14 +66,12 @@
     display: block;
     position: absolute;
     width: 100%;
-    /*height: 2px;*/
     height: 0.22vh;
     background-color: #989595;
     transition-duration: 0.25s;
   }
   .menu__btn > span::before {
     content: "";
-    /* top: -8px;*/
     top: -1vh;
   }
   .menu__btn > span::after {
@@ -197,7 +195,6 @@
     align-content: flex-start;
     margin-top: 0%;
     background-image: url("../img/DogMobile.jpg");
-    /*url("../images/decoration/team-decoration.svg")*/
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -222,12 +219,6 @@
     line-height: 130%;
   }
   .startPage__texts_ellipse {
-    /* display: flex; */
-    /* justify-content: flex-start; */
-    /* align-items: center; */
-    /* margin-right: 0%; */
-    /* margin-left: 0%; */
-    /* margin-top: -20%; */
     position: absolute;
     top: 42.5%;
     right: 100%;
@@ -247,8 +238,6 @@
     margin-left: -210%;
     background-color: rgba(150, 25, 20, 1);
     border-radius: 10px;
-    /* color: #ffffff; */
-    /* text-align: center; */
     font-family: "Montserrat", "Montserrat bold", sans-serif;
     font-weight: bold;
     font-size: 1rem;
@@ -262,8 +251,6 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* margin-left: 14%; */
-    /* margin-bottom: 6%; */
   }
   .startPage__ZOOOV {
     display: flex;
@@ -273,7 +260,6 @@
     margin-top: 105%;
     margin-left: -110%;
     opacity: 70%;
-    /* border: 2px solid red; */
   }
   .menu__item:hover {
     color: rgba(117, 17, 13, 1);
@@ -350,7 +336,6 @@
     width: 86.8vw;
     height: 65vh;
     background: #ead1d0;
-
     background-image: url("/assests/img/about_wave.svg");
     background-repeat: no-repeat;
     background-position-x: 30%;
@@ -475,7 +460,7 @@
     color: #961914;
   }
   /* Лиза — конец кода CSS*/
-  /* АННА АННА АННА АННА АННА АННА АННА*/
+  /* АННА — начало кода*/
   .whyZOOOV {
     display: flex;
     flex-direction: column;
@@ -518,7 +503,6 @@
   .LoveAndCare h2 {
     position: relative;
     top: 4vh;
-    /* width: 25.56vw; */
     left: 7.2vw;
     font-family: "Oswald";
     font-style: normal;
@@ -566,8 +550,7 @@
     top: 22vh;
     left: -130vw;
   }
-  /* АЛЁНА АЛЁНА АЛЁНА АЛЁНА АЛЁНА АЛЁНА АЛЁНА АЛЁНА */
-  /*Алена-код CSS*/
+  /*Алена — начало кода*/
   .aboutDelivery {
     display: flex;
     flex-direction: column;
@@ -703,7 +686,6 @@
   summary ~ * {
     padding: 0em 1em 0 1em;
   }
-
   .FAQ__answer {
     margin: 0.1em;
     font-family: "Montserrat";
@@ -717,8 +699,8 @@
     position: relative;
     border-bottom: 0.2px;
   }
-  /*Алена-конец кода CSS*/
-  /* ALEX ALEX ALEX ALEX ALEX */
+  /*Алена — конец кода*/
+  /* Alex — начало кода */
   .footer {
     display: flex;
     flex-direction: column;
@@ -824,7 +806,7 @@
     background-color: #69120e;
   }
 }
-/* КЭТ КЭТ КЭТ КЭТ КЭТ КЭТ КЭТ */
+/* КЭТ — начало кода */
 @media screen and (min-width: 331px) and (max-width: 480px) {
   .error,
   .error_text,
@@ -853,7 +835,6 @@
     right: 0 !important;
   }
   .menu__btn {
-    /*border: 3px solid red;*/
     position: fixed;
     top: 1%;
     right: 57%;
@@ -1017,12 +998,6 @@
     line-height: 130%;
   }
   .startPage__texts_ellipse {
-    /* display: flex; */
-    /* justify-content: flex-start; */
-    /* align-items: center; */
-    /* margin-right: 0%; */
-    /* margin-left: 0%; */
-    /* margin-top: -20%; */
     position: absolute;
     top: 40.5%;
     right: 100%;
@@ -1038,10 +1013,7 @@
     align-items: center;
     margin-top: 50%;
     margin-left: -77%;
-    /* margin-right: 0%; */
-    /* padding-top: 19%; */
     padding-right: 55%;
-    /* padding-left: 0%; */
     padding-bottom: 10%;
     font-family: "Montserrat", sans-serif;
     font-weight: lighter;
@@ -1058,8 +1030,6 @@
   margin-left: -273%;
   background-color: rgba(150, 25, 20, 1);
   border-radius: 10px;
-  /* color: #ffffff; */
-  /* text-align: center; */
   font-family: "Montserrat", "Montserrat bold", sans-serif;
   font-weight: bold;
   font-size: 1rem;
@@ -1073,8 +1043,6 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* margin-left: 14%; */
-    /* margin-bottom: 6%; */
   }
   .startPage__ZOOOV {
     display: flex;
@@ -1083,14 +1051,12 @@
     justify-content: center;
     margin-top: 129%;
     margin-left: -140%;
-    /* border: 2px solid red; */
 }
   .menu__item:hover {
     color: rgba(117, 17, 13, 1);
     text-decoration: underline;
     cursor: pointer;
   }
-
   .menu__item_button-choose-diet:hover,
   .startPage__button_choose-diet:hover,
   .startPage__buton:hover {
@@ -1160,7 +1126,6 @@
     width: 86.8vw;
     height: 65vh;
     background: #ead1d0;
-
     background-image: url("/assests/img/about_wave.svg");
     background-repeat: no-repeat;
     background-position-x: 30%;
@@ -1285,7 +1250,7 @@
     color: #961914;
   }
   /* Лиза — конец кода CSS*/
-  /* АННА АННА АННА АННА АННА АННА АННА*/
+  /* Анна — начало кода*/
   .whyZOOOV {
     display: flex;
     flex-direction: column;
@@ -1328,7 +1293,6 @@
   .LoveAndCare h2 {
     position: relative;
     top: 4vh;
-    /* width: 25.56vw; */
     left: 7.2vw;
     font-family: "Oswald";
     font-style: normal;
@@ -1376,8 +1340,7 @@
     top: 22vh;
     left: -130vw;
   }
-  /* АЛЁНА АЛЁНА АЛЁНА АЛЁНА АЛЁНА АЛЁНА АЛЁНА АЛЁНА */
-  /*Алена-код CSS*/
+  /*Алена — начало кода*/
   .aboutDelivery {
     display: flex;
     flex-direction: column;
@@ -1527,8 +1490,8 @@
     position: relative;
     border-bottom: 0.2px;
   }
-  /*Алена-конец кода CSS*/
-  /* ALEX ALEX ALEX ALEX ALEX */
+  /*Алена — конец кода*/
+  /* Alex — начало кода */
   .footer {
     display: flex;
     flex-direction: column;
@@ -1827,12 +1790,6 @@
     line-height: 130%;
   }
   .startPage__texts_ellipse {
-    /* display: flex; */
-    /* justify-content: flex-start; */
-    /* align-items: center; */
-    /* margin-right: 0%; */
-    /* margin-left: 0%; */
-    /* margin-top: -20%; */
     position: absolute;
     top: 40.5%;
     right: 100%;
@@ -1848,10 +1805,7 @@
     align-items: center;
     margin-top: 50%;
     margin-left: -74%;
-    /* margin-right: 0%; */
-    /* padding-top: 19%; */
     padding-right: 55%;
-    /* padding-left: 0%; */
     padding-bottom: 10%;
     font-family: "Montserrat", sans-serif;
     font-weight: lighter;
@@ -1868,8 +1822,6 @@
   margin-left: -273%;
   background-color: rgba(150, 25, 20, 1);
   border-radius: 10px;
-  /* color: #ffffff; */
-  /* text-align: center; */
   font-family: "Montserrat", "Montserrat bold", sans-serif;
   font-weight: bold;
   font-size: 1rem;
@@ -1883,8 +1835,6 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* margin-left: 14%; */
-    /* margin-bottom: 6%; */
   }
   .startPage__ZOOOV {
     display: flex;
@@ -1893,7 +1843,6 @@
     justify-content: center;
     margin-top: 129%;
     margin-left: -140%;
-    /* border: 2px solid red; */
 }
   .menu__item:hover {
     color: rgba(117, 17, 13, 1);
